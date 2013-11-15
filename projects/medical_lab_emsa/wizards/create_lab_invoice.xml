@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_lab_make_invoice" model="ir.ui.view">
+            <field name="name">Crear Factura de Laboratorio</field>
+            <field name="model">medical.order.lab.invoice</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Crear Factura de Laboratorio">
+                    <separator colspan="4" string="Desea generar la Factura ?" />
+                    <newline/>
+                    <separator string="Crear Factura de Laboratorio" colspan="6"/>
+                    <button special="cancel" string="Cancelar" icon="gtk-cancel"/>
+                    <button name="create_lab_invoice" string="Crear Factura de Laboratorio" type="object" icon="gtk-ok"/>
+               </form>
+            </field>
+        </record>
+
+       <act_window name="Crear Factura de Laboratorio"
+            res_model="medical.order.lab.invoice"
+            src_model="medical.order.lab"
+            view_mode="form"
+            target="new"
+            key2="client_action_multi"
+            id="action_create_lab_invoice"/>
+
+    </data>
+</openerp>

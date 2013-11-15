@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		 <record model="ir.ui.view" id="medical_order_lab_search_view">
+		        <field name="name">medical_order_lab_search</field>
+		        <field name="model">medical.order.lab</field>
+		        <field name="type">search</field>
+		        <field name="arch" type="xml">	
+     				<search string="Orden de Laboratorio">
+					<separator orientation="vertical"/>					
+					<field name='user_id'/>			
+					<field name='institution'/>
+					<field name='patient_id'/>
+					<field name='doctor_id'/>
+					<field name="order_date"/>
+					<newline/>
+					<group expand="0" string="Agrupar por..." colspan="11" col="11" groups="base.group_extended">
+						<filter string="Doctor" icon="terp-personal" domain="[]" context="{'group_by':'doctor_id'}"/>
+						<filter string="Cajero" icon="terp-personal" domain="[]" context="{'group_by':'user_id'}"/>
+						<filter string="Centro Medico" icon="terp-go-home" domain="[]" context="{'group_by':'institution'}"/>
+						<filter string="Paciente" icon="terp-personal" domain="[]" context="{'group_by':'patient_id'}"/>
+						<filter string="Fecha" icon="terp-go-month" domain="[]" context="{'group_by':'order_date'}"/>
+					</group>
+				</search>			
+			</field>
+	         </record>
+		
+		 <record model="ir.ui.view" id="medical_order_lab_tree_view">
+		        <field name="name">medical_order_lab_tree</field>
+		        <field name="model">medical.order.lab</field>
+		        <field name="type">tree</field>
+		        <field name="arch" type="xml">		  		
+     				<tree string="Orden de Laboratorio">			
+					<field name='patient_id'/>      		
+					<field name='order_date'/>
+					<field name='doctor_id'/>
+					<field name='cant' sum='Pacientes'/>
+					<field name='valor_test' sum='Valor Real'/>
+					<field name='valor_cobrar' sum='Valor Cobrado'/>
+					<field name='user_id'/>				
+					<field name='institution'/>
+				</tree>
+			</field>
+	         </record>
+          
+		 <record model="ir.ui.view" id="medical_order_lab_form_view">
+		        <field name="name">medical_order_lab_form</field>
+		        <field name="model">medical.order.lab</field>
+		        <field name="type">form</field>
+		        <field name="arch" type="xml">		  		
+     				<form string="Orden de Laboratorio">				
+					<field name='name'/>
+					<field name='user_id'/>				
+					<field name='institution'/>					
+					<field name='patient_id'/>     		
+					<field name='order_date'/>
+					<field name='doctor_id'/>
+					<field name='valor_test'/>
+					<field name='valor_cobrar'/>		
+					<field name='test_type_lab' colspan='4'/>
+				</form>
+			</field>
+	         </record>
+		 <record model="ir.actions.act_window" id="medical_order_lab_action">
+                        <field name="name">Orden de Laboratorio</field>
+                        <field name="type">ir.actions.act_window</field>
+                        <field name="res_model">medical.order.lab</field>
+                        <field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+                        <field name="view_id" ref="medical_order_lab_tree_view"/>
+                 </record>
+	
+<!--sequencia para la orden de laboratorio-->
+		<record id="seq_type_order_lab" model="ir.sequence.type">
+        	    <field name="name">Order Lab</field>
+        	    <field name="code">medical.order.lab</field>
+        	</record>
+
+		 <record id="seq_order_lab" model="ir.sequence">
+	            <field name="name">Order Lab</field>
+        	    <field name="code">medical.order.lab</field>
+        	    <field eval="0" name="padding"/>
+        	</record>
+		 <menuitem name="Orden de Laboratorio" id="medical_order_lab_menu" action="medical_order_lab_action" parent="medical_lab.medical_laboratory_menu" sequence="4"/>
+
+	</data>
+</openerp>

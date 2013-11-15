@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+	<record id="medical_laboratory_report_view" model="ir.ui.view">
+            <field name="name">Informe Mensual de Laboratorio</field>
+            <field name="model">medical.laboratory.report</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+            <form string="Report Options">
+                  <label nolabel="1" string=""/>
+                  <newline/>
+                   <notebook tabpos="up" colspan="4">
+                   		<page string="Filters" name="filters">
+                   			<field name="month" string="Mes" colspan="2"/>                   			
+                   			<field name="year" string="Año" colspan="2" widget="selection"/>
+                   		</page>
+                   </notebook>
+                   <separator colspan="4"/>
+                    <group col="4" colspan="4">
+                        <button icon="gtk-cancel" special="cancel" string="Cancelar" colspan="2"/>
+                        <button icon="gtk-print" name="check_report" string="Imprimir" type="object" colspan="2" default_focus="1" />
+                    </group>
+            </form>
+            </field>
+        </record>             
+           
+        <record id="action_medical_laboratory_report_menu" model="ir.actions.act_window">
+            <field name="name">Informe Mensual de Laboratorio</field>
+            <field name="res_model">medical.laboratory.report</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="medical_laboratory_report_view"/>
+            <field name="target">new</field>
+        </record>
+        
+        <menuitem id="medical_laboratory_report_menu" name="Laboratorio" parent="medical.medical_reporting_menu" action=""/>    
+        <menuitem id="medical_laboratory_month_report_menu" name="Informe Mensual de Laboratorio" parent="medical_laboratory_report_menu" action="action_medical_laboratory_report_menu"/>   
+           
+    </data>
+</openerp>

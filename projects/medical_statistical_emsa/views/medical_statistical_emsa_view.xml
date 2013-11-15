@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		 <record model="ir.ui.view" id="medical_statistical_victim_search_view">
+                <field name="name">medical_statistical_victim_search</field>
+                <field name="model">statistical.victim</field>
+                <field name="type">search</field>               
+                <field name="inherit_id" ref="statistical_health.statistical_victim_search_form_view"/>                
+                <field name="arch" type="xml">
+                <field name="destino_id" position="after">
+                	<field name="date_accidente"/>
+                	<field name="paramedic_id"/>
+                	<field name="driver_id"/>
+                </field>
+                <field name="name" position="after">
+                	<field name="lastname"/>
+                </field>
+                <field name="sector_id" position="replace">                	
+                	<field name="sexo"/>              	
+                </field>
+                <filter string='Sector' icon="terp-stock_symbol-selection" domain="[]" context="{'group_by' : 'sector_id'}" position="replace"/>				
+                 
+                <filter string='Destino' icon="terp-stock_symbol-selection" domain="[]" context="{'group_by' : 'destino_id'}" position="after">
+                	<filter string='Lugar de accidente' icon="terp-stock_symbol-selection" domain="[]" context="{'group_by' : 'ubication'}"/>
+                </filter>
+                                
+                
+				<group position="inside">      				
+      				<!-- <filter string="Servicio de Consulta" icon="terp-personal" domain="[]" context="{'group_by':'consultations'}"/>-->
+      				<filter string="Date" icon="terp-go-month" domain="[]" context="{'group_by':'date_accidente'}"/>      				
+      				<filter string="Sexo" icon="terp-personal" domain="[]" context="{'group_by':'sexo'}"/>
+      				<filter string="Paramedico" icon="terp-personal" domain="[]" context="{'group_by':'paramedic_id'}"/>
+      				<filter string="Conductor" icon="terp-personal" domain="[]" context="{'group_by':'driver_id'}"/>   				      				
+      			</group>					
+		</field>
+          </record>
+          
+          <record model="ir.ui.view" id="medical_statistical_victim_tree_view">
+                <field name="name">medical_statistical_victim_tree</field>
+                <field name="model">statistical.victim</field>
+                <field name="type">tree</field>
+                <field name="inherit_id" ref="statistical_health.statistical_victim_tree_view"/>
+                <field name="arch" type="xml">
+					<field name="sector_id" position="replace">						
+						<field name="cant"  sum="Cant Pacientes" string="Nro. Pacientes"/>
+						<!-- <field name="material_id"/>-->
+					</field>
+					<field name="name" position="after">
+                		<field name="lastname"/>
+                	</field>			
+					<field name="cant" position="after">
+						<field name="date_accidente" string="Date"/>
+						<field name="sexo"/>
+					</field>
+					<field name="bandera_id" position="after">
+						<field name="paramedic_id"/>
+						<field name="driver_id"/>
+					</field>
+					<field name="bandera_id" position="replace">
+                		<field name="ubication" string="Lugar del accidente"/>
+                	</field>								
+				</field>
+          </record>
+          
+           <record model="ir.ui.view" id="medical_statiscal_victim_form_view">
+                <field name="name">medica_statistical_victim_form</field>
+                <field name="model">statistical.victim</field>
+                <field name="type">form</field>
+                <field name="inherit_id" ref="statistical_health.statistical_victim_form_view"/>
+                <field name="arch" type="xml">
+	                <page string="Accident Informacion" position="replace"/>
+	                <field name="name" position="after">
+                		<field name="lastname"/>
+                	</field>                	
+                	<field name="date_accidente" position="after">
+                		<field name="date_arrival"/>
+                	</field>
+                	<page string="Causes of Mobilization" position="replace"/>
+                	
+                	<field name="material" position="after">
+                		<group colspan="4" col="6">
+			                 <separator col="6" colspan="6" string="Causas de Mobilizacion"/>
+			                 <field name="traffic_accident"/>
+			                 <field name="fire_accident"/>
+			                 <field name="ambiental_accident" />
+			                 <field name="arma_accident" />
+			                 <field name="civil_accident" />
+			                 <field name="self_inflicted_accident" />
+			                 <field name="medical_emergency" />
+			                 <field name="fallen" />
+			                 <field name="others" />
+			            </group>	
+                	</field>
+                	
+                	<field name="direction_transfer" position="replace"/>
+                	<field name="bandera_id" position="replace"/>
+                	
+                	<field name="destino_id" position="before">
+                		<field name="bandera_id" string="Lugar del accidente"/>
+                	</field>
+                	
+                	<field name="material" position="replace">
+                		<field name="material_id" nolabel="1"/>
+                	</field> 
+                	
+                	<field name="responsable" position="replace">
+                		<field name="paramedic_id" domain="[('active','=',True)]"/>
+                	</field>                	
+                	<field name="conductor" position="replace">
+                		<field name="driver_id" domain="[('active','=',True)]"/>
+                	</field>
+                	
+                	<field name="bandera_id" position="replace">
+                		<field name="ubication" string="Lugar del accidente"/>
+                	</field>
+                	
+				</field>
+          </record>
+          
+          <!-- MATERIALES -->
+          
+            <record model="ir.ui.view" id="material_material_tree_view">
+                <field name="name">Materiales</field>
+                <field name="model">material.material</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Materiales">
+                        <field name="name"/>
+                    </tree>
+                </field>
+            </record>
+
+            <record model="ir.ui.view" id="material_material_form_view">
+                <field name="name">Materiales</field>
+                <field name="model">material.material</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="Materiales">
+                        <field name="name" select="1"/>
+                    </form>
+                </field>
+            </record>
+
+            <record model="ir.actions.act_window" id="action_material_material_tree_view">
+                <field name="name">Materiales</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">material.material</field>		   
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <field name="view_id" ref="material_material_tree_view"/>
+            </record>
+ 
+			<menuitem id="material_material_menu" name="Materiales" parent="statistical_health.configuracion_estadistica_menu" action="action_material_material_tree_view"/>
+          
+            <!-- PARAMEDICOS -->          
+            
+             <record model="ir.ui.view" id="paramedic_paramedic_search_view">
+                <field name="name">Paramedicos</field>
+                <field name="model">paramedic.paramedic</field>
+                <field name="type">search</field>
+                <field name="arch" type="xml">
+                    <search string="Paramedicos">
+                        <field name="name" select="1"/>
+                        <field name="active"/>
+                    </search>
+                </field>
+            </record>
+            
+            <record model="ir.ui.view" id="paramedic_paramedic_tree_view">
+                <field name="name">Paramedicos</field>
+                <field name="model">paramedic.paramedic</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Paramedicos">
+                        <field name="name" select="1"/>
+                        <field name="active"/>
+                    </tree>
+                </field>
+            </record>
+
+            <record model="ir.ui.view" id="paramedic_paramedic_form_view">
+                <field name="name">Paramedicos</field>
+                <field name="model">paramedic.paramedic</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="Paramedicos">
+                        <field name="name" select="1"/>
+                        <field name="active"/>
+                    </form>
+                </field>
+            </record>
+
+            <record model="ir.actions.act_window" id="action_paramedic_paramedic_tree_view">
+                <field name="name">Paramedicos</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">paramedic.paramedic</field>		   
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <field name="view_id" ref="paramedic_paramedic_tree_view"/>
+            </record>
+
+			<menuitem id="paramedic_paramedic_menu" name="Paramedicos" parent="statistical_health.configuracion_estadistica_menu" action="action_paramedic_paramedic_tree_view"/>
+
+		<!-- CONDUCTOR -->
+            
+            <record model="ir.ui.view" id="driver_driver_tree_view">
+                <field name="name">Conductor</field>
+                <field name="model">driver.driver</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Conductor">
+                        <field name="name" select="1"/>
+                        <field name="active"/>
+                    </tree>
+                </field>
+            </record>
+
+            <record model="ir.ui.view" id="driver_driver_form_view">
+                <field name="name">Conductor</field>
+                <field name="model">driver.driver</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="Conductor">
+                        <field name="name" select="1"/>
+                        <field name="active"/>
+                    </form>
+                </field>
+            </record>
+
+            <record model="ir.actions.act_window" id="action_driver_driver_tree_view">
+                <field name="name">Conductor</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">driver.driver</field>		   
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <field name="view_id" ref="driver_driver_tree_view"/>
+            </record>
+
+			<menuitem id="driver_driver_menu" name="Conductor" parent="statistical_health.configuracion_estadistica_menu" action="action_driver_driver_tree_view"/>
+
+
+          
+          <!-- CLINICAS MOVILES -->
+          <record model="ir.ui.view" id="medical_clinica_movil_search_view">
+                <field name="name">medical_clinica_movil_search</field>
+                <field name="model">clinica.movil</field>
+                <field name="type">search</field>               
+                <field name="inherit_id" ref="statistical_health.clinica_movil_search_view"/>                
+                <field name="arch" type="xml">
+                <field name="especialidad_id" position="replace"/>
+                <field name="doctor_id" position="after">                	
+                	<field name="date_inscription" string="Date"/>
+                	<field name="sector" string="Sector"/>
+                	<field name="consultations" string="Servicio de Consulta"/>              	
+                </field>
+                <field name="patient_id" position="replace">
+                		<field name="numhistoria"/>
+                </field>
+				<field name="numhistoria" position="after">                	
+                		<field name="name"/>
+                		<field name="lastname"/>
+                		<field name="sex"/>                		
+                		<field name="age_range"/> 														
+				</field>
+				<field name="doctor_id" position="after">            	
+                	<newline/>													
+				</field>
+                <filter string='Especialidad' icon="terp-stock_symbol-selection" domain="[]" context="{'group_by' : 'especialidad_id'}" position="replace"/>
+                <filter string='Paciente' icon="terp-stock_symbol-selection" domain="[]" context="{'group_by' : 'patient_id'}" position="replace"/>
+				<group position="inside">
+      				<filter string="Servicio de Consulta" icon="terp-personal" domain="[]" context="{'group_by':'consultations'}"/>      					
+      				<filter string="Mes" icon="terp-go-month" domain="[]" context="{'group_by':'date_inscription'}"/>
+      				<filter string="Dia" icon="terp-go-month" domain="[]" context="{'group_by':'day'}"/>      				
+      				<filter string="Sector" icon="terp-go-home" domain="[]" context="{'group_by':'sector'}"/>      				    				
+      				<filter string="Sexo" icon="terp-personal" domain="[]" context="{'group_by':'sex'}"/>
+      				<filter string="Rango-Edad" icon="terp-personal" domain="[]" context="{'group_by':'age_range'}"/>      				
+      			</group>					
+		</field>
+          </record>
+          
+          <record model="ir.ui.view" id="medical_clinica_movil_tree_view">
+                <field name="name">medical_clinica_movil_tree</field>
+                <field name="model">clinica.movil</field>
+                <field name="type">tree</field>
+                <field name="inherit_id" ref="statistical_health.clinica_movil_tree_view"/>
+                <field name="arch" type="xml">
+                	<field name="especialidad_id" position="replace">
+						<field name="consultations" string="Servicio de Consulta"/>
+					</field>			
+					<field name="consultations" position="after">
+						<field name="date_inscription" string="Date"/>
+						<field name="cant"  sum="Cant Pacientes" string="Nro. Pacientes"/>
+						<field name="sector" string="Sector"/>						
+					</field>
+					
+					<field name="patient_id" position="replace">
+                		<field name="numhistoria"/>
+                	</field>
+					<field name="numhistoria" position="after">                	
+                		<field name="name"/>
+                		<field name="lastname"/>
+                		<field name="sex"/>
+                		<field name="age"/>
+                		<field name="age_range"/>
+                		<field name="day"/> 														
+					</field>
+				</field>
+          </record>
+          
+           <record model="ir.ui.view" id="medical_clinica_movil_form_view">
+                <field name="name">medica_clinica_movil_form</field>
+                <field name="model">clinica.movil</field>
+                <field name="type">form</field>
+                <field name="inherit_id" ref="statistical_health.clinica_movil_form_view"/>
+                <field name="arch" type="xml">
+	                <field name="numhistoria" position="replace"/>
+	                <field name="escuela" position="replace"/>
+	                <field name="direction" position="replace"/>
+	                <field name="especialidad_id" position="replace">
+						<field name="consultations" string="Servicio de Consulta"/>
+					</field>
+					<!-- 
+					<field name="domicilio" position="replace">
+						<field name="sector" string="Sector"/>
+					</field>
+					 -->
+				<!--<field name="patient_id" position="replace">                	
+                		<field name="patient_id" on_change="onchange_patient(patient_id, date_inscription)"/>                	                	              	
+                	</field>
+                	<newline/>-->
+                	<field name="patient_id" position="replace">
+                		<field name="numhistoria"/>
+                	</field>
+					<field name="numhistoria" position="after">                	
+                		<field name="name"/>
+                		<field name="lastname"/>
+                		<field name="sex"/>
+                		<field name="age"/>
+                		<field name="age_range"/>              	                	              	
+                	</field>
+                	<!--  -->
+                	<page string="Lugar de Atencion" position="replace"/>
+                	<page string="Datos de Atencion y Diagnostico" position="replace"/>             	
+                	                     
+                	<field name="age_range" position="after">
+						<field name="doctor_id" string="Doctor"/>
+						<field name="consultations" string="Servicio de Consulta"/>
+						<field name="sector" string="Sector"/>
+						<field name="diagnostico" string="Diagnóstico"/>
+					</field>
+					
+					<xpath expr="/form/notebook/page"
+                            position="attributes">
+                            <attribute name="string">Informacion General</attribute>
+                     </xpath>
+                     
+                     <field name="date_inscription" position="replace"/>
+                     <field name="clinica_id" position="after">
+                     	<field name="date_inscription" on_change="onchange_date(date_inscription)"/>
+                     	<field name="day" invisible="1"/>
+                     </field>
+                	         		
+				</field>
+          </record>          
+
+	</data>
+</openerp>
