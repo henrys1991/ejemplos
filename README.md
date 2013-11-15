@@ -1,4 +1,6 @@
-ejemplos
-========
+Bienvenidos a mi perfil de Github... 
 
-Detallo código creado por mi.
+Detallo código creado por mi, en algunos lenguajes de programación.
+
+Henry Salazar López
+Saludos....
