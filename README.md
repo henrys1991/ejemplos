@@ -2,5 +2,5 @@ Bienvenidos a mi perfil de Github...
 
 Detallo código creado por mi, en algunos lenguajes de programación.
 
-Henry Salazar López
+Ing. Sist. Henry Salazar López
 Saludos....
