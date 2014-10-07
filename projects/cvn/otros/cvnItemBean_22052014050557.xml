@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <cvnRootResultBean>
+    <CvnRootBean>
+      <object>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2014-03-17T00:00:00+01:00</Value>
+            <Code>000.020.000.020</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <CvnString>
+            <Value>1.3.0</Value>
+            <Code>000.020.000.080</Code>
+          </CvnString>
+          <CvnTitleBean/>
+          <CvnVolumeBean/>
+          <Code>000.020.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>1980-01-08T00:00:00+01:00</Value>
+            <Code>000.010.000.050</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean>
+            <FirstFamilyName>Elío</FirstFamilyName>
+            <SecondFamilyName>Pascual</SecondFamilyName>
+            <Code>000.010.000.010</Code>
+          </CvnFamilyNameBean>
+          <CvnPageBean/>
+          <object>
+            <CvnPhoneBean>
+              <Extension/>
+              <InternationalCode>+34</InternationalCode>
+              <Number>934939900</Number>
+              <Type>000</Type>
+              <Code>000.010.000.210</Code>
+            </CvnPhoneBean>
+            <CvnPhoneBean>
+              <Extension/>
+              <InternationalCode>+34</InternationalCode>
+              <Number>652229772</Number>
+              <Type>010</Type>
+              <Code>000.010.000.240</Code>
+            </CvnPhoneBean>
+          </object>
+          <CvnPhotoBean>
+            <BytesInBase64>/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcG
+BwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCACjAIIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCLwrZ6
+P4j8O6hbtFsu76zaLzwAxDAEhv5VyHhvwte6Rp17ZWWvXOoaLd3EMZ+1WAxIob7u49iM9+tdt418
+P6Bo/iCzk/07SPIQOsO/MgWQJglRzj5hz2zSeLr208ReD9Q0qBV1KRYGMNlbSlJITGOJeOeOtfld
+OvHC1HRex5lRKOsTyW/8RTeDmnh8PQf8IvtmjeBWnLw7R853KOMcYx71q+MviNr3irWtSt7i1mEi
+rHaDZK8ENuZAPKLDH3WB3GuP0nwdc6XDNqd7FcXep6OVUWNyhZAjA7XP94D9a6LX/jlp9paC0Fhd
+ah/bllieBQN1gQcqqsflwpHynPsK+hwuLw9dWgtjGDTd6jsY/g79oi98P6cfCXiS1N/NYSxzWEzX
+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
+UV4Fkan/2Q==</BytesInBase64>
+            <MimeType>jpg</MimeType>
+            <Code>000.010.000.130</Code>
+          </CvnPhotoBean>
+          <object>
+            <CvnString>
+              <Value>Iñaki</Value>
+              <Code>000.010.000.020</Code>
+            </CvnString>
+            <CvnString>
+              <Value>46967511Q</Value>
+              <Code>000.010.000.100</Code>
+            </CvnString>
+            <CvnString>
+              <Value>724</Value>
+              <Code>000.010.000.040</Code>
+            </CvnString>
+            <CvnString>
+              <Value>724</Value>
+              <Code>000.010.000.060</Code>
+            </CvnString>
+            <CvnString>
+              <Value>ES51</Value>
+              <Code>000.010.000.070</Code>
+            </CvnString>
+            <CvnString>
+              <Value>L'Hospitalet de Llobregat</Value>
+              <Code>000.010.000.090</Code>
+            </CvnString>
+            <CvnString>
+              <Value>000</Value>
+              <Code>000.010.000.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Barcelona</Value>
+              <Code>000.010.000.170</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Paseo García Faria nº 29</Value>
+              <Code>000.010.000.140</Code>
+            </CvnString>
+            <CvnString>
+              <Value>08005</Value>
+              <Code>000.010.000.160</Code>
+            </CvnString>
+            <CvnString>
+              <Value>ES51</Value>
+              <Code>000.010.000.190</Code>
+            </CvnString>
+            <CvnString>
+              <Value>310</Value>
+              <Code>000.010.000.200</Code>
+            </CvnString>
+            <CvnString>
+              <Value>724</Value>
+              <Code>000.010.000.180</Code>
+            </CvnString>
+            <CvnString>
+              <Value>inaki.elio@funiber.org</Value>
+              <Code>000.010.000.230</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean/>
+          <Code>000.010.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2014-01-08T00:00:00+01:00</Value>
+            <Code>010.010.000.180</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <object>
+            <CvnEntityBean>
+              <Id/>
+              <Name>Universidad Europea del Atlántico</Name>
+              <Code>010.010.000.020</Code>
+            </CvnEntityBean>
+            <CvnEntityBean>
+              <Id/>
+              <Name>Nutrición Humana y Dietética</Name>
+              <Code>010.010.000.080</Code>
+            </CvnEntityBean>
+            <CvnEntityBean>
+              <Id/>
+              <Name>Facultad de Ciencias de la Salud</Name>
+              <Code>010.010.000.060</Code>
+            </CvnEntityBean>
+          </object>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>Profesor</Value>
+              <Code>010.010.000.170</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Profesor e investigador del área de ciencias de la salud.</Value>
+              <Code>010.010.000.250</Code>
+            </CvnString>
+            <CvnString>
+              <Value>240300</Value>
+              <Code>010.010.000.240</Code>
+            </CvnString>
+            <CvnString>
+              <Value>241107</Value>
+              <Code>010.010.000.240</Code>
+            </CvnString>
+            <CvnString>
+              <Value>241108</Value>
+              <Code>010.010.000.240</Code>
+            </CvnString>
+            <CvnString>
+              <Value>320600</Value>
+              <Code>010.010.000.240</Code>
+            </CvnString>
+            <CvnString>
+              <Value>321200</Value>
+              <Code>010.010.000.240</Code>
+            </CvnString>
+            <CvnString>
+              <Value>160</Value>
+              <Code>010.010.000.190</Code>
+            </CvnString>
+            <CvnString>
+              <Value>020</Value>
+              <Code>010.010.000.210</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean/>
+          <Code>010.010.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean>
+            <object/>
+            <Code>010.020.000.010</Code>
+          </CvnBoolean>
+          <CvnCodeGroup/>
+          <object>
+            <CvnDateDayMonthYear>
+              <Value>2003-10-20T00:00:00+02:00</Value>
+              <Code>010.020.000.180</Code>
+            </CvnDateDayMonthYear>
+            <CvnDateDayMonthYear>
+              <Value>2013-12-31T00:00:00+01:00</Value>
+              <Code>010.020.000.310</Code>
+            </CvnDateDayMonthYear>
+          </object>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration>
+            <Value>P10Y2M11D</Value>
+            <Code>010.020.000.190</Code>
+          </CvnDuration>
+          <CvnEntityBean>
+            <Id>8435246600011002700000000102442</Id>
+            <Name>Hospital Universitari de Bellvitge</Name>
+            <Code>010.020.000.020</Code>
+          </CvnEntityBean>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>Dietista-Nutricionista Clínico</Value>
+              <Code>010.020.000.170</Code>
+            </CvnString>
+            <CvnString>
+              <Value>A lo largo de mis 10 años de experiencia en el Hospital Universitario de Bellvitge, he desarrollado las actividades de Dieitista-Nutricionista responsable de las patologías: Enfermedades cardiovasculares, cirugía digestiva, obesidad mórbida, cirugía bariátrica, responsable de la gestión de la nutrición enteral a domicilio, oncología de cabeza y cuello, neumología, geriatria, cirugía plástica. Además he formado parte de la comisión de menús y he sido responsable de la creación de un manual de menús hospitalarios. 
+
+Formación de los estudiantes de Nutrición Humana y Dietética de la Universidad de Barcelona, Universidad de Vic, Universidad Blanquerna, Universidad de  Navarra. Formación en nutrición y dietética para el personal del Hospital de Bellvitge. Participación en el grupo CIBERDEM del servicio de endocrinología del Hospital de Bellvitge, formando parte de  5 publicaciones. En el año 2013 he sido el profesor responsable de la Asignatura de Nutrición y Oncología de la Universidad de Vic.</Value>
+              <Code>010.020.000.260</Code>
+            </CvnString>
+            <CvnString>
+              <Value>440</Value>
+              <Code>010.020.000.200</Code>
+            </CvnString>
+            <CvnString>
+              <Value>100</Value>
+              <Code>010.020.000.040</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean/>
+          <Code>010.020.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2010-10-07T00:00:00+02:00</Value>
+            <Code>020.010.010.130</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean>
+            <Id>8435246600011002700000001371984</Id>
+            <Name>Universitat de Barcelona</Name>
+            <Code>020.010.010.090</Code>
+          </CvnEntityBean>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>950</Value>
+              <Code>020.010.010.010</Code>
+            </CvnString>
+            <CvnString>
+              <Value>000</Value>
+              <Code>020.010.010.110</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Barcelona</Value>
+              <Code>020.010.010.080</Code>
+            </CvnString>
+            <CvnString>
+              <Value>ES51</Value>
+              <Code>020.010.010.060</Code>
+            </CvnString>
+            <CvnString>
+              <Value>724</Value>
+              <Code>020.010.010.050</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean>
+            <Identification/>
+            <Name>Master Universitario de Nutrición y Metabolismo</Name>
+            <Code>020.010.010.030</Code>
+          </CvnTitleBean>
+          <CvnVolumeBean/>
+          <Code>020.010.010.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2003-07-03T00:00:00+02:00</Value>
+            <Code>020.010.010.130</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean>
+            <Id/>
+            <Name>Universitat de Vic</Name>
+            <Code>020.010.010.090</Code>
+          </CvnEntityBean>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>960</Value>
+              <Code>020.010.010.010</Code>
+            </CvnString>
+            <CvnString>
+              <Value>000</Value>
+              <Code>020.010.010.110</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Vic</Value>
+              <Code>020.010.010.080</Code>
+            </CvnString>
+            <CvnString>
+              <Value>ES51</Value>
+              <Code>020.010.010.060</Code>
+            </CvnString>
+            <CvnString>
+              <Value>724</Value>
+              <Code>020.010.010.050</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean>
+            <Identification>30100202</Identification>
+            <Name>Nutrición Humana y Dietética</Name>
+            <Code>020.010.010.030</Code>
+          </CvnTitleBean>
+          <CvnVolumeBean/>
+          <Code>020.010.010.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear/>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>000</Value>
+              <Code>020.060.000.020</Code>
+            </CvnString>
+            <CvnString>
+              <Value>000</Value>
+              <Code>020.060.000.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>000</Value>
+              <Code>020.060.000.040</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean>
+            <Identification>fra</Identification>
+            <Name>Francés</Name>
+            <Code>020.060.000.010</Code>
+          </CvnTitleBean>
+          <CvnVolumeBean/>
+          <Code>020.060.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear/>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.020</Code>
+            </CvnString>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.040</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean>
+            <Identification>cat</Identification>
+            <Name>Catalán</Name>
+            <Code>020.060.000.010</Code>
+          </CvnTitleBean>
+          <CvnVolumeBean/>
+          <Code>020.060.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear/>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.020</Code>
+            </CvnString>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.040</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean>
+            <Identification>spa</Identification>
+            <Name>Español</Name>
+            <Code>020.060.000.010</Code>
+          </CvnTitleBean>
+          <CvnVolumeBean/>
+          <Code>020.060.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear/>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.020</Code>
+            </CvnString>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>020</Value>
+              <Code>020.060.000.040</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean>
+            <Identification>eng</Identification>
+            <Name>Inglés</Name>
+            <Code>020.060.000.010</Code>
+          </CvnTitleBean>
+          <CvnVolumeBean/>
+          <Code>020.060.000.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <object>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Sumalla Cano S</Signature>
+              <SignatureOrder>1</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Elío I</Signature>
+              <SignatureOrder>2</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Domínguez I</Signature>
+              <SignatureOrder>3</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Calderón R</Signature>
+              <SignatureOrder>4</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>García A</Signature>
+              <SignatureOrder>5</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Fernández F</Signature>
+              <SignatureOrder>6</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Gracia S</Signature>
+              <SignatureOrder>7</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Dzul L</Signature>
+              <SignatureOrder>8</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Battino M</Signature>
+              <SignatureOrder>9</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Solano HA</Signature>
+              <SignatureOrder>10</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+          </object>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2013-04-04T00:00:00+02:00</Value>
+            <Code>060.010.010.140</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean>
+            <FinalPage>540</FinalPage>
+            <InitialPage>532</InitialPage>
+            <Code>060.010.010.090</Code>
+          </CvnPageBean>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>020</Value>
+              <Code>060.010.010.010</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Assessing the profile and nutritional intake of an Ibero-American group of nutrition postgraduate students</Value>
+              <Code>060.010.010.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>057</Value>
+              <Code>060.010.010.070</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Nutrición Hospitalaria</Value>
+              <Code>060.010.010.210</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean>
+            <Number>2</Number>
+            <Volume>28</Volume>
+            <Code>060.010.010.080</Code>
+          </CvnVolumeBean>
+          <Code>060.010.010.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <object>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Vilarrasa N</Signature>
+              <SignatureOrder>1</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>de Gordejuela AG</Signature>
+              <SignatureOrder>2</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Gómez-Vaquero C</Signature>
+              <SignatureOrder>3</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Pujol J</Signature>
+              <SignatureOrder>4</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Elío I</Signature>
+              <SignatureOrder>5</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>San José P</Signature>
+              <SignatureOrder>6</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Toro S</Signature>
+              <SignatureOrder>7</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Casajoana A</Signature>
+              <SignatureOrder>8</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Gómez JM</Signature>
+              <SignatureOrder>9</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+          </object>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2013-12-01T00:00:00+01:00</Value>
+            <Code>060.010.010.140</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean>
+            <FinalPage>2091</FinalPage>
+            <InitialPage>2086</InitialPage>
+            <Code>060.010.010.090</Code>
+          </CvnPageBean>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>020</Value>
+              <Code>060.010.010.010</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Effect of bariatric surgery on bone mineral density: comparison of gastric bypass and sleeve gastrectomy</Value>
+              <Code>060.010.010.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>057</Value>
+              <Code>060.010.010.070</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Obesity Surgery</Value>
+              <Code>060.010.010.210</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean>
+            <Number>12</Number>
+            <Volume>23</Volume>
+            <Code>060.010.010.080</Code>
+          </CvnVolumeBean>
+          <Code>060.010.010.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <object>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Burgos R</Signature>
+              <SignatureOrder>1</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Sarto B</Signature>
+              <SignatureOrder>2</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Elío I</Signature>
+              <SignatureOrder>3</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Planas M</Signature>
+              <SignatureOrder>4</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Forga M</Signature>
+              <SignatureOrder>5</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Cantón A</Signature>
+              <SignatureOrder>6</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Trallero R</Signature>
+              <SignatureOrder>7</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Muñoz MJ</Signature>
+              <SignatureOrder>8</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+          </object>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2012-03-05T00:00:00+01:00</Value>
+            <Code>060.010.010.140</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean>
+            <FinalPage>476</FinalPage>
+            <InitialPage>469</InitialPage>
+            <Code>060.010.010.090</Code>
+          </CvnPageBean>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>020</Value>
+              <Code>060.010.010.010</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Group for the Study of Malnutrition in Hospitals in Catalonia. Prevalence of malnutrition and its etiological factors in hospitals</Value>
+              <Code>060.010.010.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>057</Value>
+              <Code>060.010.010.070</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Nutrición Hospitalaria</Value>
+              <Code>060.010.010.210</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean>
+            <Number>2</Number>
+            <Volume>27</Volume>
+            <Code>060.010.010.080</Code>
+          </CvnVolumeBean>
+          <Code>060.010.010.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <object>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Vilarrasa N</Signature>
+              <SignatureOrder>1</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Vendrel J</Signature>
+              <SignatureOrder>2</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Maravall J</Signature>
+              <SignatureOrder>3</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Elío I</Signature>
+              <SignatureOrder>4</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Solano E</Signature>
+              <SignatureOrder>5</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>San José P</Signature>
+              <SignatureOrder>6</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>García I</Signature>
+              <SignatureOrder>7</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Virgili N</Signature>
+              <SignatureOrder>8</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Soler J</Signature>
+              <SignatureOrder>9</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+            <CvnAuthorBean>
+              <CvnFamilyNameBean/>
+              <GivenName/>
+              <Signature>Gómez JM</Signature>
+              <SignatureOrder>10</SignatureOrder>
+              <Code>060.010.010.040</Code>
+            </CvnAuthorBean>
+          </object>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <CvnDateDayMonthYear>
+            <Value>2010-07-23T00:00:00+02:00</Value>
+            <Code>060.010.010.140</Code>
+          </CvnDateDayMonthYear>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean/>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean>
+            <FinalPage>242</FinalPage>
+            <InitialPage>235</InitialPage>
+            <Code>060.010.010.090</Code>
+          </CvnPageBean>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>020</Value>
+              <Code>060.010.010.010</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Is plasma 25(OH) D related to adipokines, inflammatory cytokines and insulin resistance in both a healthy and morbidly obese population?</Value>
+              <Code>060.010.010.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>057</Value>
+              <Code>060.010.010.070</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Endocrine</Value>
+              <Code>060.010.010.210</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean>
+            <Number>2</Number>
+            <Volume>38</Volume>
+            <Code>060.010.010.080</Code>
+          </CvnVolumeBean>
+          <Code>060.010.010.000</Code>
+        </CvnItemBean>
+        <CvnItemBean>
+          <CvnAuthorBean/>
+          <CvnBoolean/>
+          <CvnCodeGroup/>
+          <object>
+            <CvnDateDayMonthYear>
+              <Value>2011-05-24T00:00:00+02:00</Value>
+              <Code>060.010.020.190</Code>
+            </CvnDateDayMonthYear>
+            <CvnDateDayMonthYear>
+              <Value>2011-05-27T00:00:00+02:00</Value>
+              <Code>060.010.020.380</Code>
+            </CvnDateDayMonthYear>
+          </object>
+          <CvnDateMonthYear/>
+          <CvnDateYear/>
+          <CvnDouble/>
+          <CvnDuration/>
+          <CvnEntityBean>
+            <Id/>
+            <Name>SENPE</Name>
+            <Code>060.010.020.110</Code>
+          </CvnEntityBean>
+          <CvnExternalPKBean/>
+          <CvnFamilyNameBean/>
+          <CvnPageBean/>
+          <CvnPhoneBean/>
+          <CvnPhotoBean/>
+          <object>
+            <CvnString>
+              <Value>Estrategias de soporte nutricional para prevenir la desnutrición en el postoperatorio de los pacientes con cáncer de cabeza y cuello</Value>
+              <Code>060.010.020.030</Code>
+            </CvnString>
+            <CvnString>
+              <Value>XXVI Congreso Nacional SENPE</Value>
+              <Code>060.010.020.100</Code>
+            </CvnString>
+            <CvnString>
+              <Value>Girona</Value>
+              <Code>060.010.020.180</Code>
+            </CvnString>
+            <CvnString>
+              <Value>ES51</Value>
+              <Code>060.010.020.160</Code>
+            </CvnString>
+            <CvnString>
+              <Value>724</Value>
+              <Code>060.010.020.150</Code>
+            </CvnString>
+          </object>
+          <CvnTitleBean/>
+          <CvnVolumeBean/>
+          <Code>060.010.020.000</Code>
+        </CvnItemBean>
+      </object>
+    </CvnRootBean>
+    <errorCode>0</errorCode>
+    <errorMessage>ok</errorMessage>
+    <numElementos>15</numElementos>
+  </cvnRootResultBean>
+</root>

@@ -1,0 +1,46 @@
+.popup{
+	font-family: Lucida Grande,Lucida Sans Unicode;
+	font-size:10px;
+	padding: 10px;
+	/*height: 50px;*/
+	height: auto;
+	width: 200px;
+	/*width: auto;*/
+	
+	border: 2px solid #A4A4A4;
+	background-color: #FFFFFF;
+	z-index: 100;
+	position: absolute;
+	/*top: 300px;
+	left: 300px;*/
+	border-radius: 10px;
+	box-shadow: 5px -5px 3px #A4A4A4; 
+	/*overflow-y:scroll;*/
+	overflow-y: hidden;
+	
+}
+.enlaceCodigo{
+	position: relative;
+	/*border: 1px solid #A4A4A4;*/
+	padding: px;
+	/*float: left;*/
+	/*text-align: center;*/	
+}
+.enlaceCodigo:hover{
+	
+}
+.mensaje{
+	/*border: 1px solid #C4EFFE;*/
+	border: 1px solid #FF0000;
+	text-align: center;
+	color: #FF0000;
+}
+.obligatorio{
+	color: #FF0000;
+	font-size: 18px;
+	padding-top:5px;
+	padding-right: 5px;
+}
+
+
+

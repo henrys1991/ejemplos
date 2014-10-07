@@ -1,0 +1,345 @@
+/*
+-----------------------------------------------
+ Estilos Formularios
+ @autor:   Rafael Nevarez
+ @version:  Agosto 19 2005
+----------------------------------------------- */
+
+/* Comunes Sistema (NO MOVER DE ESTA POSICION)
+ ----------------------------------------------- */
+.publico{
+	color:#000000;
+}
+.privado{
+	color:#0000FF;
+}
+.borrador{
+	color:#666666;
+}
+.sistema{
+	
+}
+.no_activo{
+	color: #777;
+}
+
+/* Estados Sistema
+----------------------------------------------- */
+.estado_NPG{
+	color:black;
+}
+.estado_PG{
+	color:blue;
+}
+.estado_DV{
+	color:red;
+}
+.estado_AN{
+	color:gray;
+}
+.valor_en_rojo{
+	color:red;
+	font-weight:bold;
+	font-size: 11px;
+}
+.prematriculado{
+	color:#000000;
+	font-weight:bold;
+}
+.becado{
+	color:#DD0000;
+}
+
+
+/* Tags HTML
+ ----------------------------------------------- */
+/*html, body {
+    height:100%;
+}*/ 
+ 
+ 
+body{
+	font-family: Lucida Grande, Lucida Sans Unicode, GeezaPro, ArialHebrew, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	line-height: 13px;
+}
+a{ 
+	color: #FF5C00; 
+	text-decoration: none; 
+	cursor: pointer;
+}
+a:hover{ color: red; text-decoration: none;}
+
+h1{
+	font-size: 14px; 
+	font-weight: normal; 
+	margin: 0 0 0px 0;
+	line-height: 16px;
+}
+
+h2, h3, .title{ 
+	color: #0092C7;
+	font-weight: normal; 
+	margin: 0 1% 5px 1%;
+}
+h2{
+	font-size: 13px; 
+	line-height: 15px;
+}
+h3{
+	font-size: 11px; 
+	margin: 0 1% 3px 1%;
+}
+select:disabled{
+	border: 1px solid rgb(204, 204, 204); 
+	background-color: #fff; 
+	color: #000;
+	padding: 1px;
+}
+
+select .empty{
+	border-bottom:1px solid #ccc; padding-bottom: 2px; margin-bottom: 5px;
+}
+
+input.boton{
+	vertical-align: middle; 
+	margin-top: -1px;
+}
+
+input, select, textarea{
+	font-family: Lucida Grande, Lucida Sans Unicode, GeezaPro, ArialHebrew, Helvetica, sans-serif;
+	font-size: 11px;	
+}
+
+select option.divider{
+	border-bottom: 1px solid #ccc; margin: -5px 0 5px;
+}
+
+input[type=text], textarea, input[type=password], .inputObjetos, input[type=file]{
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 2px 1px 2px 1px;
+}
+
+input[type=text]:focus, textarea:focus, input[type=password]:focus{
+	border: 1px solid #666;
+	background: #fff;
+	padding: 2px 1px 2px 1px;
+}
+
+form{
+	margin: 0; padding: 0;
+}
+/* 
+RN-22012014 - Se elimina el azul y se deja que los strong sean bold
+strong, b, .label{ */
+.label{
+	color: #1e4a7b;
+	font-weight: normal;
+}
+
+
+
+fieldset {
+	border: 1px solid #dedede;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+.large{
+	font-size: 13px;
+}
+.strong{
+	font-weight: bold;
+}
+.tip{
+	color: #888;
+	font-size: 10px;
+}
+.interno{
+	color: #40b05d;
+}
+.indent{
+	margin: 0 0 0 15px;
+}
+
+.btnDisabled, .btnDisabled a, .btnDisabled a:hover, .disabled, .disable{ 
+	-moz-opacity: 0.6; 
+	-webkit-opacity: 0.6; 
+	opacity: 0.6; 
+	color: #444 !important;
+	cursor: text !important;
+} 
+
+.vertical_middle {
+	vertical-align: middle !important;
+}
+
+/* Iframe editar
+ ----------------------------------------------- */
+.iframe_editar{
+	border: 0;
+	width: 100%;
+	padding: 0; margin: 0;
+	overflow: auto;
+}
+
+/*
+Input Objetos
+-----------------------------------------------*/
+.inputObjetos{
+	margin:0 3px 0 0; 
+	border: 1px solid #ccc; 
+	width: 200px; 
+	padding: 2px 3px; 
+	background:#fff;
+	float: left;
+	color: #000;
+	overflow: hidden;
+}
+.inputObjetos div{
+	margin: 1px 0;
+	cursor: pointer;
+	clear: both;
+}
+.inputObjetos a.quitar, .inputObjetos a.eliminar{
+	float: right;		
+}
+
+.inputObjetos div.selected{
+	background-color: #0092c7;
+	color: #fff;
+}
+.inputObjetosBotones{
+	margin:2px 0 0 0;
+	float: left;
+}
+
+
+/*
+Widget Objetos Autocompletar
+-----------------------------------------------*/
+.wdgtObjsAutocompletar {
+	border: 1px solid #ccc;
+	width: 200px;
+	padding: 2px;
+}
+
+.wdgtObjsAutocompletar .wdgtObjsAutocompletarObjetos div{
+/* 	float: left; clear: both; */
+	margin-right: 10px;
+}
+
+.wdgtObjsAutocompletar .wdgtObjsAutocompletarObjetos .remover{
+	margin-left: 0;
+}
+
+.wdgtObjsAutocompletarResultados div{
+	clear: both;
+	padding: 3px 2% 3px 11%;
+	background-position: 4px 2px;
+	width: 87%;
+}
+
+/*
+.wdgtObjsAutocompletarResultados div >:first-child{
+	margin: 0 4px 0 23px;
+	float: left;
+}
+*/
+
+.wdgtObjsAutocompletarResultados .selected{
+	background-color: #0092C7;
+	color: #fff;
+}
+
+.wdgtObjsAutocompletar input, .wdgtObjsAutocompletar input[type=text]:focus{
+	border: none;
+	outline: none;
+	padding: 0; margin: 0;
+}
+
+.wdgtObjsAutocompletar .wdgtObjsAutocompletarResultados , .wdgtObjsAutocompletarObjetos .wdgtObjsAutocompletarResultados {
+	background: #fff;
+
+	border: 1px solid #ccc;
+	width: 204px;
+	padding: 4px 0;
+	-webkit-box-shadow: 0px 1px 15px rgba(100, 100, 100, 0.5);
+	-moz-box-shadow:    0px 1px 15px rgba(100, 100, 100, 0.5);
+	box-shadow:         0px 1px 15px rgba(100, 100, 100, 0.5);	
+	-moz-opacity: 0.9;
+	-webkit-opacity: 0.9;
+}
+
+.loadingWindow{
+	background: url(../imx/ico_busy_large.gif) no-repeat center top;
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 45%;
+	top: 45%;
+}
+
+.textoAjustable{ 
+	overflow: hidden !important;
+	white-space: nowrap;
+	/*    max-width: 70px; width para colecciones */
+	text-overflow:ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	min-height: 16px;
+}
+
+td.textoAjustable{
+	max-width:70px;
+}
+	
+	
+
+
+.textoAdjustableM {
+  display: block;
+  /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 400px;
+  height: 40px;
+  /* height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: 11px;
+  line-height: 1.2;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  position: relative;
+  
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+}
+
+.toggleBtnTextoAjustableM{
+	float: right; 
+	clear: both; 
+	margin: -14px 0 0 0; 
+	background-color: #fff; 
+	padding-left: 20px;
+	z-index: 100;
+}
+
+	
+/*
+Opener - ellipsis cuando abre nuevo diálogo ...
+-----------------------------------------------*/	
+.opener:after { content: "...";}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.finePrint {
+	font-size:10px;
+	}

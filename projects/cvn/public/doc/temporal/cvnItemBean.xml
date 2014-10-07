@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <cvnRootResultBean>
+    <cvnRootBean/>
+    <errorCode>2</errorCode>
+    <errorMessage>El PDF no tenia XML incrustado.</errorMessage>
+    <numElementos>0</numElementos>
+  </cvnRootResultBean>
+</root>

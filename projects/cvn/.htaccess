@@ -1,0 +1,39 @@
+# Activar RewriteEngine
+RewriteEngine on
+RewriteRule ^login$ controllers/Escritorio.php?action=autenticar [L]
+RewriteRule ^personas/registro$ controllers/Personas.php?action=registro [L]
+RewriteRule ^personas/consultar$ controllers/Personas.php?action=consultar [L]
+RewriteRule ^rest/areas/listado$ controllers/rest/Areas.php
+RewriteRule ^rest/personas/registro/([0-9]+)$ controllers/rest/Personas.php?id=$1
+RewriteRule ^rest/personas/registro$ controllers/rest/Personas.php
+
+
+
+
+#RewriteRule ^login controllers/Usuarios.php?action=autenticar [L]
+
+#convierte areas/12345/expediente/35698 a controllers/api/Areas.php?id=12345&entidad=envios&id_entidad=35698 esta de momento no se utiliza, queda comentada
+#RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ $1.php?id=$2&entidad=$3&id_entidad=$4
+
+
+
+#RewriteRule ^persona controllers/Personas.php [L]
+
+
+#RewriteCond %{REQUEST_URI} ^cvn.*
+#RewriteCond %{REQUEST_URI} !^/cvn/
+#RewriteRule (.*) /cvn/$1 [L]
+
+#RewriteBase /
+#RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteCond %{SCRIPT_FILENAME} !-f
+ 
+#RewriteRule ^(.*)$ $1.php
+
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^persona/$ /controllers/Personas.php [L]
+
+#RewriteRule ^caracteristicas/$ /caracteristicas.php [L] 
+#RewriteRule ^comprar/$ /comprar.html [L]
+#RewriteRule ^contacto/$ /paginas/contacto.htm [L]    

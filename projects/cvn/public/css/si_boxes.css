@@ -1,0 +1,66 @@
+/*
+-----------------------------------------------
+ Limbo 
+ Estilo Base
+ @autor:   Rafael Nevarez
+ @version:  Junio 10 2013
+----------------------------------------------- */
+.box{
+	width: 100%; 
+	height: 100%;
+	margin: 0 0 10px 0; 
+	float: left;
+	border: 1px solid #ddd;
+	-moz-border-radius: 6px;	
+	border-radius: 6px;	
+	-webkit-border-radius: 6px;
+	
+	background: url("../imx/bg_small_toolbar.gif") repeat-x left -13px;
+	/*background: url("../imx/bg_small_toolbar_uneatlantico.png") repeat-x left -13px;*/
+
+}
+.box /*.header .topleft .topright*/ .headerArea{
+	height: 23px;
+	padding: 6px 5px 0 5px;
+}
+.box /*.header .topleft .topright*/ .headerArea .headerLeft{
+	width: 65%; 
+	float: left;	
+	color: #1e4a7b;
+}
+.box /*.header .topleft .topright*/ .headerArea .headerRight{
+	width: 35%; 
+	float: left; 
+	text-align: right;
+}
+.headerRight a{
+	color: #0092C7;
+	margin-right: 3px;
+}
+.headerRight a.cerrar{
+	background: url("../imx/ico_cerrar_tab.png") no-repeat right top;
+	padding: 0 0 0 13px;
+	margin-left: 0;
+}
+.headerRight a.cerrar:hover{
+	background: url("../imx/ico_cerrar_tab_hover.png") no-repeat right top;
+	padding: 0 0 0 13px;
+	margin-left: 0;
+}
+.box .bodyOuter{
+	float: left;
+	width: 100%;
+
+}
+.box .bodyInner{	
+	padding: 2%;
+	float: left;
+	width: 96%;
+}
+
+.box .editContainer{
+	background-color: #ffffee;
+	padding: 5px;
+}
+
+

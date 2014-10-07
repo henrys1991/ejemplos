@@ -1,0 +1,87 @@
+/*
+-----------------------------------------------
+ Sistema Integrado 
+ Estilo Base de Aplicaciones
+ @autor:   Rafael Nevarez
+ @version:  Agosto 19 2005
+----------------------------------------------- */
+@import url("si_common.css");
+@import url("si_iconos.css");
+@import url("si_listas.css");
+@import url("si_formularios.css");
+@import url("si_botoneras.css");
+@import url("si_popups.css");
+
+
+/* Layout
+----------------------------------------------- */
+.contenedor_maestro{
+	width: 100%;
+	margin: 0; 
+	padding: 0;
+	float: left;
+	clear: both;
+	display: inline;
+}
+
+ /* Pestañas
+ ----------------------------------------------- */
+.pestanas{
+	float:left;
+	width:100%;
+	background: url("../imx/bg_pestanas_apps2.jpg") repeat-x bottom;
+	/*	background: url("../imx/bg_small_toolbar_uneatlantico.png") repeat-x bottom;*/	
+	padding: 8px 0 0 0;
+	margin: 0;
+    height: 25px;
+}
+.pestanas ul{
+	float: left;
+	margin: 0;
+	padding: 0px 5px 0 5px;
+	list-style:none;
+}
+.pestanas li{
+	float:left;
+	margin: 0 3px 0 0;
+	padding:0 0 0 0;
+}
+.pestanas a{
+	/*float: left;
+	display: block;
+	padding: 4px 7px 3px 7px;
+	text-decoration: none;
+	color: #ccc;
+	border: 1px solid #efefef;
+	border-bottom: none;
+	background: #fafafa;
+	font-size: 11px;
+	cursor: pointer;
+	-moz-opacity: .6;*/
+}
+.pestanas a:hover{
+	/*color: #0092C7;*/
+}
+.pestanas .current{
+	border-width: 0;
+}
+.pestanas .current a{/*	
+	background: url("../imx/tabapp_active_gris.gif") repeat-x left top;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	color: #333	;
+	-moz-opacity: 1;*/
+}
+
+.dialogo{
+	border-top: none;
+	width: 100%;
+	margin: 0;
+	background: #fff;
+	float: left;
+	padding: 0;
+}
+
+.DynarchCalendar-time{
+	display: none !important; /*TR: Hack para ocultar el tiempo permanentemente en los calendar del sistema, con el tiempo se debera de remover uno a uno la declaracion showTime:XXX en los calendar.setup de todo el sistema pero mientras no se tenga eso este estilo debera de permanecer*/
+}

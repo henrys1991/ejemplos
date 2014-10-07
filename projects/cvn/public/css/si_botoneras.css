@@ -1,0 +1,408 @@
+/*
+-----------------------------------------------
+ Estilos Botoneras
+ @autor:   Rafael Nevarez
+ @version:  Agosto 19 2005
+----------------------------------------------- */
+
+/* Botoneras / Botones 
+----------------------------------------------- */
+fieldset .botonera,
+fieldset .smalltoolbar,
+fieldset .mini_botonera{
+	margin: -5px -8px 11px 0 !important;
+	width: 100% !important;
+	border-left: none;
+	border-right: none;
+	
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+.botonera{
+	padding: 7px 1% 7px 1%;
+	width: 98%;
+	background: url("../imx/bg_small_toolbar.gif") repeat-x bottom;
+/*	 background: url("../imx/bg_small_toolbar_uneatlantico.png") repeat-x bottom;*/ 
+	margin: 0 0 10px 0;
+	float: left;
+	clear: both;
+	color: #444;
+	display: inline;
+}
+
+.botonera a{
+	cursor: pointer;
+	/*color: #444;
+	font-weight: normal;
+	margin: 0 12px 0 0;	*/
+}
+
+.botonera a:hover, .botonera a.activo{
+	/*color: #000;*/
+}
+
+.botonera .separator, .toolbar .separator{
+	cursor: default;
+	border-right: 1px solid #ccc;
+	margin: 0 8px 0 -7px;
+}
+
+.botonera .panelLeft, .smalltoolbar .panelLeft{
+	float: left;
+}
+.botonera .panelRight, .smalltoolbar .panelRight{
+	float: right;
+}
+
+.botonera .searchPanel{
+	background: url("../imx/bg-search_panel.gif") no-repeat left top;
+	padding: 1px 10px 1px 30px;
+	margin: -4px 0 -2px;
+	height: 20px;
+	width: 210px;
+}
+.botonera .searchPanel input{
+	border: none;
+	width: 210px;
+}
+
+.botonera select{
+/* 	margin: -4px 0 0 0; */
+}
+
+/* Tip Black 
+--------------*/
+
+.tipBlackT{
+	background: url("../imx/bg-arrow-up.png") no-repeat 30px bottom;
+	height: 12px;
+	width: 100%;
+}
+
+.tipBlackL{
+	background: url("../imx/bg-arrow-left.png") no-repeat 1px center;
+	height: 22px;
+	float: left;
+	width: 10px;
+}
+.tipBlackRT{
+	background: url("../imx/bg-arrow-up.png") no-repeat 96% bottom;
+	height: 12px;
+	width: 100%;
+}
+
+.tipBlackB {
+    background: url("../imx/bg-arrow-up.png") no-repeat 30px bottom;
+	height: 12px;
+	width: 100%;
+	
+	transform: scaleY(-1);
+	-moz-transform: scaleY(-1); /* Firefox */
+	-webkit-transform: scaleY(-1); /* Chrome - Safari */
+	-o-transform: scaleY(-1); /* Opera */
+}
+
+
+.tipBlack, .tipBlackR{
+	width: 100%;
+	padding: 15px;
+	min-height: 20px;
+	background: #000;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.tipBlack a{
+	color:#FFF;	
+}
+
+/* Tip White 
+--------------*/
+
+.tipWhiteT{
+	background: url("../imx/bg-arrow-up-white.png") no-repeat 30px bottom;
+	height: 14px;
+	width: 100%;
+}
+.tipWhiteRT{
+	background: url("../imx/bg-arrow-up-white.png") no-repeat 96% bottom;
+	height: 14px;
+	width: 100%;
+}
+.tipWhite, .tipWhiteR{
+	width: 100%;
+	padding: 15px;
+	min-height: 60px;
+	background: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #000;
+}
+
+.tipWhite, .tipWhiteR{
+	-moz-box-shadow: #bbb 0 4px 30px; -webkit-box-shadow: #bbb 0 4px 30px;
+	-khtml-box-shadow: #bbb 0 4px 30px; box-shadow: #bbb 0 4px 30px;
+}
+
+.tipWhite a, .tipWhiteR a{
+	color: #aaa;	
+}
+.tipWhite a:hover, .tipWhiteR a:hover{
+	color: #000;	
+}
+
+
+/* Bubbles 
+RN: 30-01-2014
+------------------------------------------ */
+
+.bubble a{
+	color: #fff;
+}
+
+.bubble{
+  position:relative;
+  padding:15px;
+  padding-bottom: 12px;
+  /*margin:1em 0 3em;*/
+  color:#fff;
+  background: #000; /* default background for browsers without gradient support */
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.bubble:after {
+  content:"";
+  position:absolute;
+  bottom:-10px; /* value = - border-top-width - border-bottom-width */
+  left:50px; /* controls horizontal position */
+  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#000 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+.bubble._top:after {
+  top:-10px; /* value = - border-top-width - border-bottom-width */
+  left: 30px; /* controls horizontal position */
+  bottom:auto;
+  border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+  border-color:#000 transparent;
+}
+
+.bubble._right:after {
+  top:-9px; /* value = - border-top-width - border-bottom-width */
+  left: 177px; /* controls horizontal position */
+  bottom:auto;
+  border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+  border-color:#000 transparent;
+}
+
+.bubble_presentacion{
+  position:relative;
+  padding:15px;
+  padding-bottom: 12px;
+  color: #696969;
+  background: #FCFCFC;
+  box-shadow: 0 0px 10px rgba(100, 100, 100, 0.5);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  overflow: hidden;
+  top: 0px;
+}
+
+.bubble_presentacion_top:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 20px;
+    background: #FCFCFC;
+    transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg);
+    top: 6px;
+    left: 5px;
+    box-shadow: -1px -1px 5px -1px rgba(0,0,0,0.5);
+}
+.bubble_presentacion_top{
+   width: 35px;
+   height: 13px;
+   position: relative;
+   overflow: hidden;
+   top: 0px;
+}
+
+/* liveSearchResults 
+------------------------------------------ */
+
+.liveSearchResults{
+	width: 230px;
+	padding: 10px;
+	min-height: 200px;
+	background: #000;
+	-moz-opacity:.75;
+	-moz-border-radius: 10px;
+	color: #fff;
+}
+.liveSearchResult{
+	padding: 5px;
+	margin: 0 0 5px 0;
+	color: #666;	
+	-moz-border-radius: 5px;
+}
+
+.liveSearchResult:hover{
+	background: #3875d7;
+	color: #a4b8d8;	
+}
+
+.liveSearchResult a{
+	color: #fff;	
+	/*font-size: 13px;*/
+}
+
+
+/* Botonera Pequeña / Botones 
+----------------------------------------------- */
+.smalltoolbar, .mini_botonera{
+	padding: 7px 1% 7px 1%;
+	width: 100%;
+	background: url("../imx/bg_small_toolbar.gif") repeat-x bottom;
+    /*background: url("../imx/bg_small_toolbar_uneatlantico.png") repeat-x bottom;*/
+	margin: 0 0 11px 0;
+	border: 1px solid #ddd;
+	border-top: none; border-bottom: none;
+	float: left;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.smalltoolbar.prueba {
+	
+	border: 0px solid #DDD ;
+	width:100%;
+	margin: 0 7px 11px 10px;
+}
+
+.smalltoolbar a, .mini_botonera a{
+	margin: 0 12px 0 0;
+	cursor: pointer;
+	color: #555;
+}
+
+.smalltoolbar a.smallButton, a.smallButton, span.smallButton { /*Se agrego (a y span) para darle margin 2px a los iconos; 28/01 - IS  */
+	/*margin: 0 2px 0 0;*/
+	margin-right:2px;
+}
+
+a.smallButton, span.smallButton{
+	/*padding: 0px 0 2px 16px; --Modificar padding superior de 1px a 0px -22/11/2013. W.Lerqué--*/
+	padding-left:16px;
+}
+
+
+.smalltoolbar .activo, .smalltoolbar a:hover, .mini_botonera .activo, .mini_botonera a:hover{
+	color: #000;
+}
+
+.smalltoolbar select{
+	margin: -4px 0 -2px 0;
+}
+
+.smalltoolbar table select{
+	margin: auto;
+}
+
+/* Botonera Slider Dialogo
+----------------------------------------------- */
+.botoneraDialogo, .botoneraSlider{
+	display: inline;
+	margin: -11px 1% 10px 1%; 
+	float: left; 
+	width: 98%;
+}
+
+.botoneraSlideDialog{
+	position: absolute;
+	margin-top: 26px;
+	left: 50%; 
+	-moz-opacity: 0.9;
+	-webkit-opacity: 0.9;
+	min-width: 250px;	
+}
+	
+.botoneraDialogo .mini_dialogo, .botoneraSlider .mini_dialogo, .botoneraSlideDialog .mini_dialogo{
+	background: #fcfcfc	url("../imx/bg-botonera-slider.jpg") repeat-x top;
+	border: 1px solid #ddd;
+	border-top: none;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.50);
+	-moz-box-shadow:    0px 5px 10px rgba(100, 100, 100, 0.50);
+	box-shadow:         0px 5px 10px rgba(100, 100, 100, 0.50);	
+}
+
+.botoneraSlideDialog .mini_dialogo{
+
+	-webkit-box-shadow: 0px 10px 15x rgba(100, 100, 100, 0.75);
+	-moz-box-shadow:    0px 10px 15px rgba(100, 100, 100, 0.75);
+	box-shadow:         0px 10px 15px rgba(100, 100, 100, 0.75);	
+
+	padding: 10px;
+}
+
+.sliderModal{
+ margin-top: 27px; 
+ -moz-opacity:.95	;
+ position: absolute; 
+}
+
+/* Header de Botones + Botones tipo "Pildora"
+----------------------------------------------- */
+.controlHeader {
+	overflow: hidden;
+	padding: 6px 5px;
+	margin: 0 0 8px 0;
+	text-align: right;
+	border-bottom: 1px solid #eee;
+}
+
+.pillBtn{
+	margin: 0 5px;
+	color: #0092c7;
+}
+
+.pillBtnSelected{
+	background-color: #0092c7;
+	padding: 1px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #fff;
+}
+
+.controlHeader a:hover{
+	color: inherit;	
+}
+
+.controlHeaderLabel{
+	font-weight: bold;
+	margin-right: 10px;
+	
+}
+
+.tabs{
+	margin-top:10px;
+	}

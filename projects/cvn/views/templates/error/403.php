@@ -1,0 +1,1 @@
+<div style="background: url('/cvn/public/imx/ico_status_error.png') no-repeat left top; padding: 0 0 3px 24px; color: #f64c4c; font: 11px 'Lucida Sans Unicode', 'Lucida Grande'">Acceso no permitido</div>

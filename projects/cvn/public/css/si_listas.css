@@ -1,0 +1,430 @@
+/*
+-----------------------------------------------
+ Estilos Listados
+ @autor:   Rafael Nevarez
+ @version:  Agosto 19 2005
+----------------------------------------------- */
+
+/* Listados Editores
+----------------------------------------------- */
+.lista_dinamica{
+	width: 98%;
+	padding: 0;
+	float: left;
+	margin: 0 1%;
+	display: inline;
+	background: #fff;
+}
+
+.lista_dinamica_drop{
+	background: #f0fbff;
+}
+.lista_dinamica ul{
+	margin: 0;
+	padding: 0px 10px 0;
+	list-style:none;
+}
+.lista_dinamica_container, .lista_dinamica_filas{
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+/* listados dentro de listados
+----------------------------------------------- */
+/*
+.lista_dinamica div.lista_dinamica{
+	width:  100%;
+	margin:  0;
+}
+*/
+
+.lista_dinamica div.lista_dinamica .lista_nodo_fila{
+/*	padding: 3px 0; -- Elimina el padding y borde inferior de las listas internas. 22/11/2013 - W.Lerqué --
+	border: none;*/
+}
+
+
+.lista_envios{
+	padding-bottom: 15px;
+}
+
+.lista_nodo{
+	padding: 0;
+	margin: 0 0 0 0;
+	float: left; 
+	clear:both;
+	width: 100%;
+	display: block;
+}
+.lista_header{
+	background: #f0fbff;	
+	float: left; clear:both;
+	width: 100%;
+	padding: 4px 0;
+	color: #0092c7;
+	font-weight: normal;
+	border-bottom: 1px solid #c4effe;
+	border-top: 1px solid #c4effe;
+}
+
+
+/* .lista_header2 Roger Barzola 
+--------------*/
+.lista_header2{
+	background: #fff;	
+	float: left; clear:both;
+	width: 100%;
+	padding: 4px 0;
+	color: #0092c7;
+	font-weight: normal;
+	border-bottom: 1px solid #c4effe;
+	border-top: 1px solid #c4effe;
+}
+
+
+.lista_header input{
+	margin: 0;
+}
+.lista_header .active, .lista_header .active_desc{
+	color: #0092c7;
+	padding: 3px 18px 2px 0px;
+	text-decoration: underline;
+}
+.lista_header .active{
+	background: url("../imx/ico_order_asc.gif") no-repeat right 6px;
+}
+.lista_header .active_desc{
+	background: url("../imx/ico_order_desc.gif") no-repeat right 6px;
+}
+
+.lista_header a, .lista_header a:hover{
+	color: #0092c7;
+	cursor: pointer;
+}
+
+.lista_header .lista_header{
+	width: 98%;
+	padding: 0 1%;
+	font-weight: normal;
+	border: none;
+}
+
+
+.lista_nodo_fila, .lista_nodo_fila_pasiva{
+	width: 100%;
+	overflow: visible;
+	padding: 4px 0;
+	float: left;
+	clear: both;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.nuevo_item_fila {
+	background: #ffd !important;
+}
+
+.borrador, .borrador *{
+	color: #ccc;
+}
+
+.privado{
+	color: blue;
+}
+
+.lista_nodo_fila_hijos
+{
+	width: 100%;
+	overflow: visible;
+	padding: 4px 0 5px 0;
+	float: left;
+	clear: both;
+}
+
+.lista_mini_nodo
+{
+	float: left;
+	clear: both;
+	display: block;	
+	height: 16px;
+}
+/* Sub listados */
+
+.lista_nodo_fila_hijos .lista_dinamica, .lista_nodo_fila_hijos .toolbar{
+	width: 96%;
+	margin-left: 4%;
+}
+
+
+.lista_nodo_fila_hijos .lista_dinamica .lista_header, 
+.lista_dinamica .lista_dinamica .lista_header{
+	background: #f5f5f5;	
+	float: left; clear:both;
+	width: 100%;
+	padding: 4px 0;
+	color: #777;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+
+
+/*
+.lista_nodo_fila_hijos .lista_dinamica .lista_header{
+	background: #f6fcff;	
+	float: left; clear:both;
+	width: 100%;
+	padding: 4px 0;
+	color: #43c6f5;
+	font-weight: normal;
+	border-bottom: 1px solid #cdeeff;
+	border-top: 1px solid #cdeeff;
+}
+*/
+
+
+.lista_nodo_fila:hover{
+	background-color: #ffd;
+}
+
+.lista_nodo_fila div, .lista_header div, .lista_nodo_fila_pasiva div{
+	float: left;
+	display: block;
+}
+
+.lista_nodo_titulo{
+	width: 100%;
+	border-top: 1px solid #fff;
+	background: #fff;	
+	overflow: visible;
+	padding: 4px 0 5px 0;
+	cursor: pointer;
+	float: left;
+	clear: both;
+}
+.lista_nodo_titulo:hover{
+	background: #f0fbff;
+	border-top: 1px solid #c4effe;
+}
+
+.lista_nodo_info{
+	float: left; clear:both; 
+	width: 98%; margin: 0;
+	background: #fafafa;
+	border: 1px solid #eaeaea;
+	margin: 3px 0 3px -1px;
+	padding: 1% 1%;
+}
+
+.lista_nodo_info table{
+	width: 98%;
+	float: left;
+	margin: 0 0 0 1%;
+	border-collapse: collapse;
+}
+
+.lista_nodo_info table th{
+	font-weight: normal;
+	color: #1e4a7b;
+	width: 100px;
+	vertical-align: top;
+}
+
+.lista_nodo_info table td{
+	color: #444;
+}
+
+.lista_nodo_info table th, .lista_nodo_info table td{
+	padding: 3px;
+	text-align: left;
+	border: none;
+}
+
+.lista_nodo_editor{
+	background: #fafafa;
+	border: 1px solid #eaeaea;
+	margin: 5px 0 5px 0;
+	width: 100%;
+	padding: 1% 0;
+	float: left;
+}
+
+.lista_toolbar{
+	background: #f0fbff;
+	border-top: 1px solid #c4effe;
+	border-bottom: 1px solid #c4effe;
+	margin: 20px 0;
+	padding: 2px 0;
+	width: 100%;
+	float: left;
+	color: #0092c7;
+}
+
+.lista_toolbar select
+{
+	padding: 0 0;
+}
+
+.toolbar{
+	width: 96%;
+	float: left;
+	padding: 10px 0 15px 0;
+	margin: 0 1%;
+	display: inline;
+}
+
+.toolbarFullWidth{
+	width: 100%;
+	margin: 0 0;
+}
+
+.toolbar a{
+	margin: 0 8px 0 0;
+	padding-right: 8px;
+}
+
+.toolbar_paginas{
+	float: left;
+	width: 68%;
+	padding: 2px 1%;
+	margin: 10px 15%;
+	text-align:center;
+	border: 1px solid #ddd;
+	background: #fafafa;
+	clear: both;
+	
+}
+
+
+
+/* Mini Listas 
+---------------------------------------------- */
+.mini_lista{
+	margin: 3px 2%; 
+	padding: 0 2%; 
+	border: 1px solid #ddd; 
+	background: #fff;
+}
+.mini_container{
+	margin: 0 0 5px 0; 
+	width: 280px; 
+	padding: 0 5px;
+}
+.mini_lista div, .mini_container div{
+	margin: 4px 0;
+	float: none;
+}
+.mini_lista .separador{
+	margin: 5px 0;
+ 	border-top: 1px solid #eee; 
+}
+
+.mini_lista_toolbar{
+	margin: 0 3%; 
+	padding: 0; 
+	display: inline;
+}
+
+.mini_lista_toolbar_float{
+	margin: 0; padding: 3px 0 3px 3px; float: left;
+}
+
+
+/* Lista Etiquetas
+---------------------------------------------- */
+
+.lista_etiquetas{
+	width: 98%;
+	padding: 0;
+	float: left;
+	margin: 0 1%;
+	display: inline;
+	background: #fff;
+}
+
+.lista_etiquetas .header{
+	background: #f0fbff;	
+	float: left; 
+	clear:both;
+	width: 100%;
+	padding: 4px 0;
+	color: #0092c7;
+	font-weight: normal;
+	border-bottom: 1px solid #c4effe;
+	border-top: 1px solid #c4effe;
+}
+
+
+.lista_etiquetas .nodo{
+	border-bottom: 1px solid #f0f0f0;
+	padding: 0;
+	margin: 0 0 0 0;
+	float: left; 
+	clear:both;
+	width: 100%;
+	display: block;
+}
+
+.lista_etiquetas .fila{
+	width: 100%;
+	padding: 4px 0;
+	float: left;
+	clear: both;
+}
+
+.lista_etiquetas .fila div, .lista_etiquetas .header div{
+	float: left;
+	display: block;
+}
+
+.lista_etiquetas .fila input{
+	border:none;
+}
+.lista_etiquetas .fila input:focus{
+	border: 1px solid #ccc;
+	background: #fafafa;
+	padding: 1px 1px 1px 1px;
+}
+
+.lista_etiquetas .tools{
+	float: left;
+	padding: 8px 0 15px 0;
+	margin: 0 0 0 1%;
+	display: inline;
+}
+
+.lista_etiquetas .tools a{
+	margin: 0 8px 0 0;
+	padding-right: 8px;
+}
+
+/* Pagination
+---------------------------------------------- */
+div.pagination{
+	width: 28%;
+	float: left;
+	margin: 10px 0px 10px 36%;
+	background: #f3f3f3; /* -webkit-linear-gradient(#fafafa 0%, #f3f3f3 80%); */
+	text-align: center;
+	border-radius: 7px;
+	padding: 4px 0;
+}
+
+div.pagination a{
+	margin: 0 2px;
+	border: 1px solid #f3f3f3;
+	border-radius: 2px;
+	color: #aaa;
+	padding: 0 2px;
+}
+
+div.pagination a.current, div.pagination a:hover{
+	background: #fff;
+	font-weight: bold;
+	color: #555;
+	border-color: #aaa;
+}
+
+.lista_nodo_resaltado{
+    background: none repeat scroll 0 0 #E8F0F9;
+}

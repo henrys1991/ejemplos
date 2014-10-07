@@ -1,0 +1,5 @@
+#para agregar usuarios ejecutar desde consola:
+#htdigest2 usuarios.htdigest funiber.org "$nombreusuario"
+#por ejemplo htdigest2 usuarios.htdigest funiber.org "Luis Dillon"
+#el mismo comando sirve para cambiar contrasenas
+

@@ -1,0 +1,2327 @@
+/* @override 
+	http://cte-alpha.local/si-2.0/public/css/si_iconos.css */
+
+/*
+-----------------------------------------------
+ Sistema Integrado FUNIBER
+ Hoja de Estilo de Iconos
+ @autor: Rafael Nevarez
+ @revision: Junio 7 2013
+----------------------------------------------- */
+
+
+/* Preferencias Globales de iconos
+ ----------------------------------------------- */
+.tile{
+	float: left;
+	display: block;
+	width: 100px;
+	height: 45px;
+	margin: 5px 10px;
+	font-size: 13px;
+	line-height: 15px;
+	vertical-align: middle;
+}
+.tile a{ color: #222; }
+.tile a:hover{ color: #000; }
+
+
+/* Idiomas
+----------------------------------------------- */
+.esp, .conten_esp, .es_ES{
+	background: transparent url("../imx/ico_conten_esp.gif") no-repeat left 2px;
+	padding: 0 0 0 21px;
+}
+.por, .conten_por, .pt_PT, .pt_BR{
+	background: url("../imx/ico_conten_por.gif") no-repeat left 2px;
+	padding: 0 0 0 21px;
+}
+.ing, .conten_ing{
+	background: url("../imx/ico_conten_ing.gif") no-repeat left 2px;
+	padding: 0 0 0 21px;
+}
+.ita, .conten_ita{
+	background: url("../imx/ico_conten_ita.gif") no-repeat left 2px;
+	padding: 0 0 0 21px;
+}
+.cat, .conten_cat{
+	background: url("../imx/ico_conten_cat.png") no-repeat left 2px;
+	padding: 0 0 0 21px;
+}
+.fra, .conten_fra{
+	background: url("../imx/ico_conten_fra.png") no-repeat left 2px;
+	padding: 0 0 0 21px;
+}
+.fra, .conten_pt{
+	background: url("../imx/ico_conten_pt.png") no-repeat left 2px;
+	padding: 0 0 0 21px;
+}
+
+
+
+/* Status
+ ----------------------------------------------- */
+
+.busy{
+	background: url("../imx/ico_busy_2.gif") no-repeat left top;
+	padding: 1px 0px 2px 21px;
+	color: #000;
+}
+.busyBlue{
+	background: url("../imx/ico_busy_blue.gif") no-repeat left top;
+	padding: 0 0px 1px 21px;
+	
+}
+.busyBlack{
+	background: url("../imx/ico_busy_black.gif") no-repeat left top;
+	padding: 1px 0px 1px 21px;
+}
+
+
+.obligatorio{
+	background: url("../imx/bullet_star.png") no-repeat right -5px;
+	padding: 0 17px 0 0;
+}
+
+._error_{
+	position: relative !important;
+	background-image: url("../imx/ico_mini_advertencia.png");
+	background-position: right -3px;
+	background-repeat: no-repeat;
+	padding: 0 17px 0 0;
+}
+
+._mini_error{
+	background: url("../imx/error.png") no-repeat left top;
+	padding: 0 0 5px 24px;
+	margin: 0 0 0 0;
+	display: inline;
+}
+
+._error_ input,
+._error_ textarea,
+._error_ select{
+	border: 1px solid #ffcb66;
+}
+
+.advertenciaTraduccion{
+	/*position: relative !important;*/
+	background-image: url("../imx/ico_advertencia_traduccion.png");
+	background-position: right -3px;
+	background-repeat: no-repeat;
+	padding: 0 0 0 17px;
+}
+
+/*
+.obligatorio input,
+.obligatorio textarea,
+.obligatorio select{
+	background-image: url("../imx/bullet_star.png");
+	background-position: right -2px;
+	background-repeat: no-repeat;
+	border: auto;
+
+	padding-right: 16px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+*/
+
+
+.multiIdioma{
+	background: url("../imx/ico_multiidioma.png") no-repeat right -1px;
+	padding: 0 0 0 18px;
+	display: none;
+}
+
+.advertencia{
+	background: url("../imx/ico_advertencia.png") no-repeat left top;
+	padding: 2px 0 1px 18px;
+	margin: 2px 0;
+	color: #f64c4c;
+	float: left;
+}
+.miniAdvertencia{
+	background-image: url("../imx/ico_mini_advertencia.png");
+	background-position: right 0;
+	background-repeat: no-repeat;
+	padding: 0 20px 0 0;
+	
+}
+.aviso, ._advertencia{
+	background: url("../imx/ico_advertencia.png") no-repeat left top;
+	padding: 0 0 2px 20px;
+	color: #f64c4c;
+}
+.error{
+	background: url("../imx/ico_status_error.png") no-repeat left top;
+	padding: 0 0 3px 24px;
+	margin: 5px 0 0 0;
+	color: #f64c4c;
+	display: inline;
+}
+.informacion, .info{
+	background: url("../imx/ico_status_informacion.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.infoDescripcion{
+	background: url("../imx/ico_informacion.png") no-repeat left top;
+	padding: 0 0 0 21px;
+}
+.infoURL{
+	background: url("../imx/ico_ir.png") no-repeat left 1px;
+	padding: 1px 5px 1px 21px;
+	float: left;
+	clear: both;
+	color: #777;
+	margin: 2px 0;
+}
+.infoUser{
+	background: url("../imx/user-info-icon.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.discard{
+	color: #F00 !important;	
+	margin: 0 0 0 3px;
+	padding: 0 2px;
+}
+.discard:hover{
+	background: red;
+	color: #fff !important;
+}
+.reset{
+	color: #777;
+}
+
+.reset:hover{
+	background: #ffc;
+	color: #000;
+	
+}
+.selected{
+	background-color: #efefef /*!important*/;
+}
+
+/* Iconos Botones
+ ----------------------------------------------- */
+.btn_cerrar_pestana, .btn_cerrar_pestana:hover{
+	margin: 0 0 0 5px;
+	padding: 0 0 1px 15px;
+	
+} 
+.btn_cerrar_pestana{
+	background: url("../imx/ico_cerrar_tab.png") no-repeat right 1px;
+}
+.btn_cerrar_pestana:hover{
+	background: url("../imx/ico_cerrar_tab_hover.png") no-repeat right 1px;
+}
+.vista_codigo{
+	background: url("../imx/ico_vista_codigo.png") no-repeat left 1px;
+	padding: 3px 0 2px 21px;
+	color: #1e4a7b;
+}
+.vista_diseno{
+	background: url("../imx/ico_vista_diseno.png") no-repeat left 2px;
+	padding: 3px 0 2px 21px;
+	color: #1e4a7b;
+}
+
+
+/* Acciones
+ ----------------------------------------------- */
+.float_izquierda{
+	float: left;
+	clear: both;
+}
+.accion, .click{
+	cursor: pointer;
+}
+.accion{
+	margin: 0 10px 0 0;
+}
+.spacer{
+	padding: 0 0 0 23px;
+}
+.draggable, .arrastrable{
+	cursor: move;
+}
+.agregar{
+/*
+	background-image: url("../imx/ico_agregar.png");
+	background-position: left top;
+	background-repeat: no-repeat; 	
+	padding: 0 0 0 21px;
+*/
+	background: url("../imx/ico_agregar_plus.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+
+.agregar_envios_manuales{
+	background: url("../imx/ico_agregar_envios_manuales.png") no-repeat left 2px;
+	padding: 3px 1px 2px 23px;
+	margin:0 -3px 0 0;
+	
+}
+.generar_multiples_envios{
+	background: url("../imx/generar_multiples_envios.png") no-repeat left 2px;
+	padding: 3px 1px 2px 23px;
+	margin:0 -3px 0 0;
+}
+
+.crear, .crear_nuevo, .crearNuevo{
+/*
+	background-image: url("../imx/ico_nuevo.png");
+	background-position: 1px 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 0 21px;
+*/	
+	background: url("../imx/ico_crear_nuevo2.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+
+.asegurar{
+	background-image: url("../imx/ico_asegurar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.copiar{
+	background-image: url("../imx/ico_copiar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.cortar{
+	background-image: url("../imx/ico_cortar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.pegar{
+	background-image: url("../imx/ico_pegar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.duplicar{
+	background-image: url("../imx/ico_duplicar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.enviarA{
+	/*background-image: url("../imx/ico_pegar.png");*/
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.agregarObjeto{
+	background-image: url("../imx/ico_agregar_objeto.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.cambiarIdioma{
+	background-image: url("../imx/ico_portal2.png");
+	background-position: 0 -1px;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.editar{
+	background-image: url("../imx/ico_editar.png");
+	/*background-position: 1px 1px;*/
+	background-repeat: no-repeat; 	
+	padding: 0 0 2px 21px;
+}
+.bloquear{
+	background-image: url("../imx/ico_bloquear_sesion.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 0 21px;
+}
+/*.bloquear_large{
+	background-image: url("../imx/ico_bloquear_sesion_22.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 0 30px;
+}*/
+.insertar{
+	background-image: url("../imx/ico_agregar_plus.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 1px 21px;
+}
+.remover{
+	background: url("../imx/ico_remover.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.eliminar, .quitar{
+	background-image:url("../imx/ico_eliminar.png");
+	/*background-position: 0 2px; --Se cambió de 0 a 2px posición vertical del fondo para bajar ícono - 22/11/2013. W.Lerqué--*/
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.suscribir{
+	background-image:url("../imx/ico_suscribir.png");
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.restaurar{
+	background-image: url("../imx/ico_restaurar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 1px 21px;
+}
+
+.ver, .vistaPrevia{
+	background-image: url("../imx/ico_vista_previa.png");
+	background-position: 0 1px;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.refrescar{
+	background-image: url("../imx/ico_refrescar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+
+.propiedades{
+	background-image: url("../imx/ico_propiedades.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+/*.actualizar{
+	background-image: url("../imx/ico_actualizar.png");
+	background-position: 0 2px;
+	background-repeat: no-repeat; 	
+	padding: 2px 0 2px 19px;
+}*/
+/*.aprobar{
+	background: url("../imx/ico_obligatorio2.gif") no-repeat right top;
+	padding: 0 25px 0 0;
+	display: inline;
+}*/
+.default{
+	background: url("../imx/ico_default.png") no-repeat left top;
+	padding: 0 0 0 20px;
+	
+}
+.aceptar, .marcar_enviado, .publicado, .disponible, .aprobar{
+	background: url("../imx/ico_si.png") no-repeat left top;
+	padding: 0 0 0 20px;
+	
+}
+.aceptar_automatico, .marcar_enviado_automatico, .publicado_automatico, .disponible_automatico, .aprobar_automatico{
+	background: url("../imx/ico_si_automatico.png") no-repeat left top;
+	padding: 0 0 0 20px;
+}
+.cancelar, .marcar_no_enviado, .despublicado, .no_disponible, .no_aprobar{
+	/*background: url("../imx/ico_no.png") no-repeat left top;*/
+	background: url("../imx/ico_eliminar_fisico.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+	
+}
+.guardar, .btn_guardar{
+	/*background: url("../imx/ico_guardar_small.gif") no-repeat left top;*/
+	background: url("../imx/ico_guardar.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.volver{
+	background: url("../imx/ico_volver.png") no-repeat left top;
+	padding: 0 0 0 20px;
+}
+
+
+.cerrar, .btn_cerrar, .btn_cerrar:hover, .cerrar:hover{
+	padding: 0 0 1px 20px;	
+}
+.cerrar, .btn_cerrar{
+	background: url("../imx/ico_cerrar_tab.png") no-repeat left 1px;
+}
+.btn_cerrar:hover, .cerrar:hover{
+	background: url("../imx/ico_cerrar_tab_hover.png") no-repeat left 1px;
+}
+
+.remover{
+	background: url("../imx/sprite_cerrar_pequeno.png") no-repeat -32px 1px;
+	padding: 0 0 1px 12px;	
+}
+.remover:hover{
+	background-position: 4px 1px;
+}
+
+.expandir{
+	
+	background: url("../imx/ico_expandir.gif") no-repeat left top;
+	padding: 0 0 0 19px;
+}
+.recoger{
+	
+	background: url("../imx/ico_recoger.gif") no-repeat left top;
+	padding: 0 0 0 19px;
+}
+.descargar{
+	background: url("../imx/ico_descargar.png") no-repeat left top;
+	padding: 0px 0 1px 21px;
+	display: inline;
+}
+.upload{
+	background: url("../imx/ico_upload.png") no-repeat left top;
+	padding: 0px 0 1px 21px;
+	display: inline;
+}
+
+.expandirMas{
+	background: url("../imx/ico_expandir_mas.png") no-repeat 1px -1px;
+	padding: 0 0 0 19px;
+}
+.expandirMenos{
+	background: url("../imx/ico_expandir_menos.png") no-repeat 1px -1px;
+	padding: 0 0 0 19px;
+}
+.dropDownMenu{	
+	background: url("../imx/ico_dropdown_menu.png") no-repeat left -1px;
+	padding: 0 19px 0 0 ;
+}
+.dropDown{	
+	background: url("../imx/ico_slide_down.png") no-repeat left -1px;
+	padding: 0 19px 0 0 ;
+}
+.dropUp{	
+	background: url("../imx/ico_slide_up.png") no-repeat left -1px;
+	padding: 0 19px 0 0 ;
+}
+
+.dropDownMenu.alignRight{	
+	background-position: right -1px;
+}
+
+.expandirAbajo{
+	background: url("../imx/ico_arrow_down.gif") no-repeat left top;
+	padding: 0 0 0 18px;
+	
+}
+.expandirArriba{
+	background: url("../imx/ico_arrow_up.gif") no-repeat left top;
+	padding: 1px 0 0 18px;
+	
+}
+.subir{
+	background: url("../imx/ico_subir.png") no-repeat left top;
+	padding: 0 0 0 22px;
+}
+.bajar{
+	background: url("../imx/ico_up_down.png") no-repeat 0 -2px;
+	padding: 0 0 0 18px;
+}
+.ir{
+	background: url("../imx/ico_ir.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+.medirVelocidad{
+	background: url("../imx/ico_medir_velocidad.png") no-repeat left top;
+	padding: 0 0 0 20px;
+	
+}
+.verPopup{
+	background: url("../imx/ico_ver_popup.png") no-repeat left top;
+	padding: 0 0 0 20px;
+	
+}
+.calcularNota{
+	background: url("../imx/ico_calculadora.png") no-repeat left top;
+	padding: 0 0 0 20px;
+	
+}
+.imprimir{
+	background: url("../imx/ico_imprimir.png") no-repeat left top;
+	padding: 0px 0 2px 22px;
+	
+}
+.insertarImagen{
+	background: url("../imx/ico_imagen.png") no-repeat left top;
+	padding: 0px 0 2px 22px;
+	
+}
+.insertarColor{
+	background: url("../imx/ico_insertar_color.png") no-repeat left top;
+	padding: 0px 0 2px 22px;
+	
+}
+
+
+/* Elementos
+----------------------------*/
+.database{
+	background: url("../imx/ico_database.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+	
+}
+.tarea_respaldo{
+	background: url("../imx/ico_tarea_respaldo.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+	
+}
+.seleccionar_rango{
+	background: url("../imx/ico_rango.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+
+.excel{
+	background: url("../imx/ico_infpro.png") no-repeat left top;
+	padding: 0 0 0 18px;
+	display: inline;
+}
+.enviar{
+	background: url("../imx/ico_enviar.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+.vistaDetalle{
+	background: url("../imx/ico_vista_detalle.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+.vistaMosaico{
+	background: url("../imx/ico_vista_mosaico.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+
+.vistaToggleLista{
+	background-image: url("../imx/ico_vista-toggle-lista.gif");
+}
+
+.vistaToggleMosaico{
+	background-image: url("../imx/ico_vista-toggle-mosaico.gif");
+}
+
+
+.vistaToggleLeft{
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 22px;
+	float: left;
+	cursor: pointer;
+}
+
+.vistaToggleRight{
+	background-position: right top;
+	background-repeat: no-repeat;
+	width: 27px;
+	height: 22px;
+	float: left;
+	cursor: pointer;
+}
+
+.subirArchivo{
+	background: url("../imx/ico_subir_archivo_2.png") no-repeat left top;
+	padding: 1px 0 2px 22px;
+}
+.resetForm{
+	background: url("../imx/ico_reset_form.png") no-repeat left top;
+	padding: 1px 0 2px 22px;
+}
+
+.btnAgregarArchivo{
+	background: url("../imx/ico_agregar_archivo.gif") no-repeat left top;
+	padding: 5px 0 6px 42px;
+}
+
+.btnAgregarArchivoOn{
+	background: url("../imx/ico_agregar_archivo_on.gif") no-repeat left top;
+	padding: 5px 0 6px 42px;
+}
+
+.vistaMosaico{
+	background: url("../imx/ico_vista_mosaico.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+
+.vistas{
+	background: url("../imx/ico_vista_detalle.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+.entidad, .Model{
+	background: url("../imx/ico_entidad.png") no-repeat left top;
+	padding: 0 0 1px 20px;
+}
+.catalogo{
+	background: url("../imx/ico_catalogo.png") no-repeat left top;
+	padding: 0 0 1px 20px;
+}
+.calendario{
+	background: url("../imx/ico_calendario.png") no-repeat left 0;
+	padding: 1px 0 0 18px;
+	display: inline;
+}
+/* DG: 23-02-2011 */
+input.calendario, input.calendario[type="text"]:focus {
+	background-position: right center;  
+ 	padding-right: 18px;
+ 	background-image: url("../imx/ico_calendario.png");
+ 	background-repeat: no-repeat;  
+}
+
+.calendario_asistente{
+	background: url("../imx/ico_calendar_asistente.png") no-repeat left 0;
+	padding: 1px 0 0 18px;
+	display: inline;
+}
+
+.siguiente{
+	background: url("../imx/ico_siguiente.png") no-repeat left 0;
+	padding: 1px 0 0 18px;
+	display: inline;
+}
+.anterior{
+	background: url("../imx/ico_anterior.png") no-repeat left 0;
+	padding: 1px 0 0 18px;
+	display: inline;
+}
+.inputCalendario{
+	background: url("../imx/ico_calendario.png") no-repeat right 0;
+	padding: 1px 22px 0 0;
+}
+.email{
+	background: url("../imx/ico_email.png") no-repeat left 1px;
+	padding: 1px 0 1px 22px;
+}
+
+.logins{
+	background: url("../imx/ico_login.png") no-repeat left 1px;
+	padding: 1px 0 1px 22px;
+}
+
+.organizacion, .Organizacion{
+	background-image: url("../imx/ico_organizacion.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 0 23px;
+}
+
+.organizacion_sinregistro {
+	background-image: url("../imx/ico_organizacion_2.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 0 23px;
+}
+
+.area, .Area{
+	background: url("../imx/ico_area_.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.programa, .Programa{
+	background-image: url("../imx/ico_programa.png");
+	background-repeat: no-repeat; 
+	background-position: 0px 1px;	
+	padding: 0px 0 3px 21px;
+}
+.programa_version, .ProgramaVersion{
+	background-image: url("../imx/ico_programa_version.png");
+	background-repeat: no-repeat; 
+	background-position: 0px 1px;
+	padding: 0px 0 3px 21px;
+}
+.peticion, .peticion_informacion{
+	background-image: url("../imx/ico_peticion_informacion.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.desactivar_peticion, .desactivar_peticiones{
+	background-image: url("../imx/ico_peticion_info_desactivar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 2px 21px;
+}
+.matricula{
+	background-image: url("../imx/ico_matricula.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.matricula_baja{
+	background-image: url("../imx/ico_matricula_advertencia.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.matricula_academico{
+	background-image: url("../imx/ico_matricula_academico.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 
+	padding: 1px 0 2px 21px;
+}
+.tesis{
+	background-image: url("../imx/ico_tesis.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.beca{
+	background-image: url("../imx/ico_beca.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.evaluacion{
+	background-image: url("../imx/ico_evaluacion.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.compra{
+	background-image: url("../imx/ico_compra.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+
+.AgregarCompra{
+	background-image: url("../imx/ico_compra_2.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 2px 21px;
+}
+
+.prorroga{
+	background: url("../imx/ico_prorroga.png") no-repeat left top;
+	padding: 1px 0 2px 21px;
+}
+.prematricula{
+	background: url("../imx/ico_prematricula.png") no-repeat left top;
+	padding: 1px 0 2px 21px;
+}
+
+.agregarPrematricula{
+	background: url("../imx/ico_agregar_prematricula.png") no-repeat left top;
+	padding: 1px 0 2px 21px;
+}
+
+.test{
+	background: url("../imx/ico_test.png") no-repeat left top;
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 2px 0 1px 23px;
+}
+.fecha{
+	background: url("../imx/ico_fecha.png") no-repeat left top;
+	padding: 1px 0 2px 21px;
+}
+
+.fechaVencida{
+	background: url("../imx/ico_fecha_vencida.png") no-repeat left top;
+	padding: 1px 0 2px 21px;
+}
+
+.fechaAtrasada{
+	background: url("../imx/ico_fecha_atrasada.png") no-repeat left top;
+	padding: 1px 0 2px 21px;
+}
+
+.persona, .Persona{
+	background: url("../imx/ico_persona2.png") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+
+.persona_editar, .Persona_editar{
+	background: url("../imx/ico_persona_editar.png") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+
+.crearPersona {
+	background: url("../imx/ico_persona_agregar.png") no-repeat left top;
+    padding: 0 0 2px 19px;
+}
+
+.persona_seguimiento{
+	background: url("../imx/ico_persona_seguimiento.png") no-repeat left top;
+	padding: 0px 0 2px 23px;
+}
+
+.recordatorio{
+	background: url("../imx/ico_recordatorio.png") no-repeat left center;
+	padding: 0 0 2px 20px;
+}
+.recordatorio_pendiente{
+	background: url("../imx/ico_recordatorio_pendiente.png") no-repeat left top;
+	padding: 0 0 2px 20px;
+}
+.recordatorio_realizado{
+	/*** background: url("../imx/ico_recordatorio_realizado.png") no-repeat left top;*/
+	background: url("../imx/ico_default.png") no-repeat left top;
+	padding: 0 0 2px 20px;
+}
+.recordatorio_prioridad_baja {
+	background: url("../imx/prioridad_baja.png") no-repeat left top;
+	padding: 0 0 2px 20px;
+}
+.recordatorio_prioridad_normal {
+	background: url("../imx/prioridad_normal.png") no-repeat left top;
+	padding: 0 0 2px 20px;
+}
+.recordatorio_prioridad_media {
+	background: url("../imx/prioridad_media.png") no-repeat left top;
+	padding: 0 0 2px 20px;
+}
+.recordatorio_prioridad_alta {
+	background: url("../imx/prioridad_alta.png") no-repeat left top;
+	padding: 0 0 2px 20px;
+}
+
+
+.usuario, .Usuario, .UsuarioCatalogo{
+	background-image: url("../imx/ico_usuario.gif");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+.grupo{
+	background-image: url("../imx/ico_grupo.gif");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+
+/* Envio cartas */
+.envio_carta, ._CARTA, .envio_carta-off, .envio_carta-nop{
+	background-image: url("../imx/carta.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;	
+}
+.envio_carta-off{	background-image: url("../imx/carta.png"); -moz-opacity: .5}
+.envio_carta-nop{	background-image: url("../imx/carta-nop.png");}
+
+.envio_sin_plantilla{
+	background-image: url("../imx/sin_plantilla.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+.envio_con_plantilla{
+	background-image: url("../imx/con_plantilla.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+
+/* Envio Emails */
+.envio_email, ._EMAIL, .envio_email-off, .envio_email-nop{
+	background-image: url("../imx/email.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 20px;	
+}
+.envio_email-off{	background-image: url("../imx/email.png"); -moz-opacity: .5}
+.envio_email-nop{	background-image: url("../imx/email-nop.png");}
+
+
+/* Envio Etiquetas */
+.envio_etiqueta, ._ETIQUETA, .envio_etiqueta-off, .envio_etiqueta-nop{
+	background-image: url(../imx/etiqueta.png);
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;	
+}
+.envio_etiqueta-off{	background-image: url("../imx/etiqueta.png"); -moz-opacity: .5}
+.envio_etiqueta-nop{	background-image: url("../imx/etiqueta-nop.png");}
+
+.generar_envio_contenido{
+	background: url("../imx/ico_generar_envio_contenido.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+
+.envio_contenido{
+	background-image: url("../imx/ico_envio_contenido.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 0px 20px;
+}
+
+.modulo, .Asignatura{
+	background-image: url("../imx/ico_asignatura.png");
+	background-repeat: no-repeat; 	
+	background-position: 0px 1px;	
+	padding: 0px 0 3px 21px;
+}
+
+.modulo_version, .AsignaturaVersion{
+	background-image: url("../imx/ico_asignatura_version.png");
+	background-repeat: no-repeat; 	
+	background-position: 0px 1px;	
+	padding: 0px 0 3px 21px;
+}
+.estadistica{
+	background-image: url("../imx/ico_estadistica.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 3px 0 2px 23px;
+}
+.tipo{
+	background-image: url("../imx/ico_tipo.gif");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 0 20px;
+}
+.tipo_organizacion{
+	/*background-image: url("../imx/sitemap-application.png");*/
+    background-image: url("../imx/sitemap-image.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 0 20px;
+}
+.proyecto{
+	background-image: url("../imx/ico_proyecto.gif");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 23px;
+}
+.convenio{
+	background-image: url("../imx/ico_convenio_2.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 2px 0 4px 23px;
+}
+.estado{
+	background-image: url("../imx/ico_estado.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 23px;
+}
+.etiqueta{
+	background-image: url("../imx/ico_etiqueta.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+.password, .cambiar_password{
+	background-image: url("../imx/ico_password.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 21px;
+}
+.tomo, .matricula_tomo{
+	background-image: url("../imx/ico_tomo.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 1px 23px;
+}
+.comparar_tomo {
+	background-image: url("../imx/ico_comparar_tomo.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 1px 23px;
+}
+
+.alumno{
+	background: url("../imx/ico_alumno.png") no-repeat left 2px;
+	padding: 3px 0 2px 23px;
+}
+.direccion{
+	background: url("../imx/ico_direccion.png") no-repeat left 2px;
+	padding: 3px 0 1px 20px;
+}
+.direccion_casa{
+	background: url("../imx/ico_direccion_casa.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.direccion_trabajo{
+	background: url("../imx/ico_direccion_trabajo.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.direccion_diploma {
+	background: url("../imx/ico_diploma.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+.direccion_fiscal{
+	background: url("../imx/ico_direccion_fiscal.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+.direccion_nueva{
+	background: url("../imx/ico_direccion_nueva.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+
+
+.telefono_casa {
+	background: url("../imx/ico_telefono_casa.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+.telefono, telefono_otros, telefono_diploma, telefono_fiscal {
+	background: url("../imx/ico_telefono.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+
+.telefono_trabajo{
+	background: url("../imx/ico_telefono_trabajo.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+.telefono_celular{
+	background: url("../imx/ico_celular.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+.fax{
+	background: url("../imx/ico_fax.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.oficina{
+	background: url("../imx/ico_oficina.png") no-repeat left top;
+	padding: 0 0 1px 20px;
+}
+.sede, .Sede{
+	background: url("../imx/ico_sede_2.png") no-repeat left top;
+	padding: 0 0 1px 20px;
+}
+.direccion_diploma {
+	background: url("../imx/ico_diploma.png") no-repeat left top;
+	padding: 1px 0 1px 20px;
+}
+
+.seguimiento_alumno_programa{
+	background: url("../imx/ico_alumno.png") no-repeat left top;
+	padding: 0 0 1px 20px;
+}
+.pais{
+	background: url("../imx/ico_portal2.png") no-repeat left 2px;
+	padding: 3px 0 2px 20px;
+}
+
+/* Gestor de Websites 
+------------------------------------- */
+.portal{
+	background: url("../imx/ico_portal.png") no-repeat left top;
+	padding: 2px 0 1px 23px;
+}
+.carpeta_web_home{
+	background: url("../imx/ico_carpeta_web_home.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.carpeta_web_header{
+	background: url("../imx/ico_carpeta_web_contenido.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.carpeta_web_footer{
+	background: url("../imx/ico_carpeta_web_contenido.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.carpeta_web_contenido{
+	background: url("../imx/ico_carpeta_web_contenido.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.carpeta_web_menu{
+	background: url("../imx/ico_carpeta_web_contenido.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.carpeta_web_layout{
+	background: url("../imx/ico_carpeta_web_layout.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.carpeta_web_stylesheet{
+	background: url("../imx/ico_carpeta_web_stylesheet.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.carpeta_web_error{
+	background: url("../imx/ico_carpeta_web_error.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.explorar{
+	background: url("../imx/ico_explorador.gif") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.explorarArchivos{
+	background: url("../imx/ico_explorar_archivos.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.carpeta{
+	background: url("../imx/ico_carpeta.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+.banner{
+	background: url("../imx/ico_banner.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.menu{
+	background: url("../imx/ico_menu.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.grilla{
+	background: url("../imx/ico_grilla.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+
+.hyperlink{
+	background: url("../imx/ico_link.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.pagina{
+	background: url("../imx/ico_pagina.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+
+.stylesheet{
+	background: url("../imx/ico_stylesheet.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+
+.template{
+	background: url("../imx/ico_template.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+
+.menu_dinamico{
+	background: url("../imx/ico_menu_dinamico.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+
+.evento{
+	background: url("../imx/ico_evento_2.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.canal_wysiwyg{
+	background: url("../imx/ico_canal_wysiwyg.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+
+.plugin_busqueda, .buscar{
+	background: url("../imx/ico_plugin_busqueda.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.boletin{
+	background: url("../imx/ico_boletin.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.persona_importada{
+	background: url("../imx/ico_persona_importada.png") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+.importarSuscriptores{
+	background: url("../imx/ico_importar_suscriptores.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.verEnExplorador{
+	background: url("../imx/ico_ver_en_explorador.png") no-repeat right top;
+	padding: 0 0 1px 18px;
+	float: right;
+}
+
+.script{
+	background: url("../imx/ico_script.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+
+/* Calendario
+ ----------------------------------------------- */
+
+.calendar{
+	background-image: url("../imx/ico_calendar.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+
+.calendario_nuevo{
+	background-image: url("../imx/ico_calendar_new.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+
+.calendario_publico{
+	background-image: url("../imx/ico_publico.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+
+.calendario_publicos{
+	background-image: url("../imx/ico_world.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+
+/* Aplicaciones
+ ----------------------------------------------- */
+.aplicacion{
+	background: url("../imx/ico_aplicacion.png") no-repeat left top;
+	padding: 0 0 3px 21px;
+}
+.aplicacion_large{
+	background: url("../imx/ico_aplicacion_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_dashboard{
+	background: url("../imx/ico_app_dashboard.png") no-repeat left top;
+	padding: 0 0 1px 20px;
+}
+.app_seguimiento_comercial, .AppSeguimientoComerciales{
+	background: url("../imx/ico_app_persona.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.app_seguimiento_comercial_large, .AppSeguimientoComerciales_large{
+	background: url("../imx/ico_app_seguimiento_comercial_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.AppProgramas{
+	background: url("../imx/ico_app_programas.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.AppProgramas_large{
+	background: url("../imx/ico_app_programas_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.AppAreas{
+	background: url("../imx/ico_app_areas_2.png") no-repeat left top;
+	padding: 0px 0 1px 23px;
+}
+.AppAreas_large{
+	background: url("../imx/ico_app_areas_2_24.png") no-repeat left -2px;
+	padding: 0 0 0px 30px;
+}	
+.AppSedes{
+	background: url("../imx/ico_app_sedes.png") no-repeat left top;
+	padding: 3px 0 2px 23px;
+}
+.AppSedes_large{
+	background: url("../imx/ico_app_sedes_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}	
+.AppOrganizaciones{
+	background: url("../imx/ico_app_organizacion.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.AppOrganizaciones_large{
+	background: url("../imx/ico_app_organizacion_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_administracion_seguridad, .AppAdministracionSeguridad{
+	background: url("../imx/ico_app_admin_seguridad.png") no-repeat left 2px;
+	padding: 3px 0 2px 23px;
+}
+.app_administracion_seguridad_large, .AppAdministracionSeguridad_large{
+	background: url("../imx/ico_app_admin_seguridad_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_paises, .AppLocaciones{
+	background: url("../imx/ico_app_paises.png") no-repeat left 2px;
+	padding: 3px 0 2px 23px;
+}
+.app_paises_large, .AppLocaciones_large{
+	background: url("../imx/ico_app_paises_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_proyecto, .AppProyectos{
+	background: url("../imx/ico_proyecto.gif") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.app_proyecto_large, .AppProyectos_large{
+	background: url("../imx/ico_app_proyectos_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_suceso, .AppSucesos{
+	background: url("../imx/ico_app_suceso.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.app_suceso_large, .AppSucesos_large{
+	background: url("../imx/ico_app_suceso_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_envio, .AppEnvios{
+	background: url("../imx/ico_app_envio.png") no-repeat left 2px;
+	padding: 3px 0 2px 23px;
+}
+.app_envio_large, .AppEnvios_large{
+	background: url("../imx/ico_app_envio_22.png") no-repeat left 2px;
+	padding: 0 0 1px 30px;
+}
+.app_envio_contenido, .AppPersonalizacionEnvios{
+	background: url("../imx/ico_app_envio_contenido.png") no-repeat left 2px;
+	padding: 3px 0 2px 23px;
+}
+.app_envio_contenido_large, .AppPersonalizacionEnvios_large{
+	background: url("../imx/ico_app_envio_contenido_22.png") no-repeat left 2px;
+	padding: 0 0 1px 30px;
+}
+.app_convenio, .AppConvenios{
+	background: url("../imx/ico_app_convenios_2.png") no-repeat left 2px;
+	padding: 3px 0 2px 23px;
+}
+.app_convenio_large, .AppConvenios_large{
+	background: url("../imx/ico_app_convenios_2_24.png") no-repeat left -2px;
+	padding: 0 0 1px 30px;
+}
+.app_seguimiento_academico, .AppSeguimientoAcademicos{
+	background: url("../imx/ico_app_seguimiento_academico.png") no-repeat left 2px;
+	padding: 3px 0 2px 23px;
+}
+.app_seguimiento_academico_large, .AppSeguimientoAcademicos_large{
+	background: url("../imx/ico_app_seguimiento_academico_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.app_estadistica, .AppEstadisticas{
+	background: url("../imx/ico_app_estadistica.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.app_estadistica_large, .AppEstadisticas_large{
+	background: url("../imx/ico_app_estadistica_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_evento{
+	background: url("../imx/ico_evento.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.app_evento_large{
+	background: url("../imx/ico_evento_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_backups{
+	background: url("../imx/ico_app_backups.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+.app_backups_large{
+	background: url("../imx/ico_app_backups_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_modulos, .AppAsignaturas{
+	background: url("../imx/ico_app_asignaturas_2.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.app_modulos_large, .AppAsignaturas_large{
+	background: url("../imx/ico_app_asignaturas_2_24.png") no-repeat left -2px;
+	padding: 0 0 1px 30px;
+}
+.app_websites{
+	background: url("../imx/ico_app_websites.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.app_websites_large{
+	background: url("../imx/ico_app_websites_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_gestor_boletines{
+	background: url("../imx/ico_app_gestor_boletines.png") no-repeat left top;
+	padding: 0 0 0 23px;
+}
+.app_gestor_boletines_large{
+	background: url("../imx/ico_app_gestor_boletines_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_gestor_recordatorios, .AppRecordatorios{
+	background: url("../imx/ico_app_gestor_recordatorios.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.app_gestor_recordatorios_large,.AppRecordatorios_large{
+	background: url("../imx/ico_app_gestor_recordatorios_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.DashboardWidgetRecordatorios{
+	background: url("../imx/ico_app_mis_recordatorios.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.DashboardWidgetRecordatorios_large{
+	background: url("../imx/ico_app_mis_recordatorios_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+
+.app_estado, .AppEstados{
+	background: url("../imx/ico_app_estado.png") no-repeat left top;
+	padding: 1px 0 1px 23px;
+}
+.app_estado_large, .AppEstados_large{
+	background: url("../imx/ico_app_estado_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_capitulo{
+	background: url("../imx/ico_app_capitulo.png") no-repeat left top;
+	padding: 1px 0 1px 23px;
+}
+.app_capitulo_large{
+	background: url("../imx/ico_app_capitulo_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_via_conocimiento{
+	background: url("../imx/ico_app_via_conocimiento.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.app_via_conocimiento_large{
+	background: url("../imx/ico_app_via_conocimiento_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_maqueta, .AppMaquetacionArchivos{
+	background: url("../imx/ico_app_maqueta.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.app_maqueta_large, .AppMaquetacionArchivos_large{
+	background: url("../imx/ico_app_maqueta_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.app_seguimiento_contable, .AppSeguimientoCobros{
+	background: url("../imx/ico_app_seguimiento_contable.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.app_seguimiento_contable_large, .AppSeguimientoCobros_large{
+	background: url("../imx/ico_app_seguimiento_contable_22.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.app_seguimiento_comercial_barrida, .AppSeguimientoComercialBarridas{
+	background: url("../imx/ico_app_seguimiento_comercial_barrido.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.widget_docs_areas, .WidgetDocsAreas{
+	background: url("../imx/ico_widget_docs_areas.png") no-repeat left top;
+	padding: 2px 0 1px 23px;
+}
+.AppProfesiones{
+	background: url("../imx/ico_app_profesiones_2.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.AppProfesiones_large{
+	background: url("../imx/ico_app_profesiones_2_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.AppAsignacionResponsables{
+	background: url("../imx/ico_app_asignaciones_2.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.AppAsignacionResponsables_large{
+	background: url("../imx/ico_app_asignaciones_2_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+.AppViasConocimiento{
+	background: url("../imx/ico_app_vias_conocimiento_2.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.AppViasConocimiento_large{
+	background: url("../imx/ico_app_vias_conocimiento_2_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.AppEtiquetas{
+	background: url("../imx/ico_app_gestor_etiquetas_16.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.AppEtiquetas_large{
+	background: url("../imx/ico_app_gestor_etiquetas_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.AppNotificaciones{
+	background: url("../imx/ico_app_gestor_notificaciones_16.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.AppNotificaciones_large{
+	background: url("../imx/ico_app_gestor_notificaciones_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.AppSectorEmpresariales{
+	background: url("../imx/ico_app_sector_empresarial_16.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.AppSectorEmpresariales_large{
+	background: url("../imx/ico_app_sector_empresarial_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+.AppTramitesTitulos{
+	background: url("../imx/ico_app_gestor_titulaciones_16.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.AppTramitesTitulos_large{
+	background: url("../imx/ico_app_gestor_titulaciones_24.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+}
+
+/* Widgets (mini-aplicaciones)
+ ----------------------------------------------- */
+.widget, .dashboard_widget, .dashboard_widget_pequeno{
+	background: url("../imx/ico_widget.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+ 
+span.DashboardWidgetAplicaciones{
+	background: url("../imx/ico_dboard_widget_aplicaciones.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+span.dashboard_widget_recordatorios{
+	background: url("../imx/ico_dboard_widget_recordatorios.png") no-repeat left top;
+	padding: 0 0 1px 23px;
+}
+span.dashboard_widget_perfil{
+	background: url("../imx/ico_persona2.gif") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+
+span.dashboard_widget_bmeter{
+	background: url("../imx/ico_dboard_widget_bmeter.png") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+
+
+/* Tipos de Archivo
+ ----------------------------------------------- */
+.archivo{	
+	background-image: url("../imx/ico_archivo.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 23px;
+} 
+.doc, .jpg, .jpeg, .gif, .pdf, .png, .txt, .xls, .ppt, .js, .zip, .rar, .rtf, .docx, .xlsx {
+	background-position: 0 2px;
+	/*background-position: 0 0;*/
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 23px;
+	/*padding: 0 0 1px 23px;*/
+}
+.txt, .rtf{
+	background-image: url("../imx/ico_archivo_txt.png");
+	padding: 1px 0 1px 23px;
+}
+
+.doc{
+	background-image: url("../imx/ico_archivo_doc.png");
+}
+.docx{
+	background-image: url("../imx/ico_archivo_docx.png");
+}
+.jpg, .jpeg, .png{
+	background-image: url("../imx/ico_archivo_jpg.png");
+}
+.gif{
+	background-image: url("../imx/ico_archivo_gif.png");
+}
+.pdf{
+	background-image: url("../imx/ico_archivo_pdf.png");
+}
+.xls{
+	background-image: url("../imx/ico_archivo_xls.png");
+}
+.xlsx{
+	background-image: url("../imx/ico_archivo_xlsx.png");
+}
+.ppt{
+	background-image: url("../imx/ico_archivo_ppt.png");
+}
+.js{
+	background-image: url("../imx/ico_archivo_js.png");
+}
+.exe{
+	background-image: url("../imx/ico_archivo_exe.png");
+}
+
+.zip, .rar{
+	background-image: url("../imx/ico_archivo_comprimido.png");
+}
+
+.archivo_large{
+	background-image: url("../imx/ico_archivo_48.png");
+}
+.pdf_large{
+	background-image: url("../imx/ico_mini_pdf.png");
+}
+.doc_large{
+	background-image: url("../imx/ico_mini_doc.png");
+}
+.xls_large{
+	background-image: url("../imx/ico_mini_xls.png");
+}
+.psd_large{
+	background-image: url("../imx/ico_mini_psd.png");
+}
+.txt_large, .rtf_large{
+	background-image: url("../imx/ico_archivo_txt_48.png");
+}
+.etiqueta_large, .sin_etiqueta_large, .papelera_llena_large, .papelera_large{
+	padding: 4px 0 4px 30px;
+	font-size: 14px;
+	font-weight: normal;	
+}
+
+.etiqueta_large{
+	background: url("../imx/ico_etiqueta_22.png") no-repeat left center;
+}
+
+.sin_etiqueta_large{
+	background: url("../imx/ico_sin_etiqueta_22.png") no-repeat left center;
+}  
+
+.papelera_llena_large{
+	background: url("../imx/ico_papelera_llena_20.png") no-repeat left center;
+} 
+
+.papelera_large{
+	background: url("../imx/ico_papelera_20.png") no-repeat left center;
+}  
+
+.titulo{
+	float: left;
+	padding: 5px 5px;
+	font-size: 13px;	
+	vertical-align: middle;
+	background: #ffe;
+	width:100%;
+	border-bottom:1px solid #ddd;
+}
+
+.sin_etiqueta{
+	background-image: url("../imx/ico_sin_etiqueta.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+} 
+
+.papelera{
+	background-image: url("../imx/ico_papelera.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+}
+
+.papelera_llena{
+	background-image: url("../imx/ico_papelera_llena.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 21px;
+} 
+
+.papelera_llena_large{
+	background: url("../imx/ico_papelera_llena_20.png") no-repeat left top;
+	padding: 0 0 1px 30px;
+} 
+
+.carpeta_inteligente{
+	background: url("../imx/ico_carpeta_inteligente.png") no-repeat left top;
+	padding: 1px 0 0 23px;
+}
+
+.parametro{
+	background: url("../imx/ico_parametro.png") no-repeat left top;
+	padding: 2px 0 0 20px;
+}
+
+.formula{
+	background: url("../imx/ico_formula.png") no-repeat left top;
+	padding: 2px 0 0 20px;
+}
+
+
+.ayuda{
+	background: url("../imx/ico_ayuda.png") no-repeat left top;
+	padding: 1px 0 2px 21px;
+}
+.calcularValores{
+	background: url("../imx/ico_calculadora.png") no-repeat left top;
+	padding: 0 0 0 20px;
+	
+}
+#busyStatus{
+	background: url("../imx/ico_busy_large.gif") no-repeat center top;
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 45%;
+	top: 45%;
+}
+
+.busyLoad{
+	background:#fff url("../imx/ico_busy_large.gif") no-repeat 20px 25px;
+	vertical-align:middle;
+	background-position:center;
+	width:100%; 
+	height:100%; 
+	position:fixed;
+	top: 0; 
+	left: 0; 
+	-moz-opacity:.75;
+}
+.puntodecimal{
+	background: url("../imx/bullet_red.png") no-repeat right 2px;
+	padding: 0 12px 0 0;
+	display: inline;
+}
+.etiqueta_estandar{
+	background: url("../imx/ico_etiqueta_estandar.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+.etiqueta_personalizada{
+	background: url("../imx/ico_etiqueta_personalizada.png") no-repeat left top;
+	padding: 0px 0 1px 22px;
+}
+.contacto_organizacion_publico{
+	background: url("../imx/ico_persona2.gif") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+.contacto_organizacion{
+	background: url("../imx/ico_contactos_organizacion.png") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+.contactos_asociados {
+	background: url("../imx/ico_contactos_asociados.png") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+	
+.contacto_organizacion_borrador{
+	background-image: url("../imx/ico_persona_borrador.gif");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+.reporte_ejecutivo{
+	/*background-image: url("../imx/ico_reporte_estadistico.gif");*/
+	background: url("../imx/ico_cuadro_control_comercial.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 1px 0 2px 20px;
+}
+.suceso{
+	background-image: url("../imx/ico_suceso.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 15px;
+}
+.suceso_pagos{
+	background-image: url("../imx/ico_suceso.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 5px 1px 15px;
+}
+
+.evaluacion_convalidada{
+	background-image: url("../imx/book_edit_convalidado.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 5px;
+}
+.evaluacion_modificada{
+	background-image: url("../imx/book_edit.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0 0 1px 5px;
+}
+.finalizarExpediente{
+	background: url("../imx/ico_finalizar_expediente.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.aprobarBeca{
+	background: url("../imx/ico_aprobar_beca.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.renunciarBeca{
+	background: url("../imx/ico_renunciar_beca.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.agregarBeca{
+	background: url("../imx/ico_agregar_beca.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.plan_pago{
+	background: url("../imx/ico_plan_pago.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.cartera_contable{
+	background: url("../imx/ico_cartera_contable.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.widgetAppContable{
+	background: url("../imx/ico_widget_app_contable.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.archivoAdjunto{
+	background: url("../imx/ico_archivo_adjunto.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.comprobante_pago{
+	background: url("../imx/ico_comprobante_pago.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.sucesos, .verSucesos{
+	background: url("../imx/ico_catalogo_suceso.png") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+.verPopup{
+	background: url("../imx/ico_show_popup.png") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+.verBalloon{
+	background: url("../imx/ico_show_balloon.png") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+.pago{
+	background: url("../imx/ico_pago2.png") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+.pagoResuelto{
+	background: url("../imx/ico_pago_resuelto.png") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+.tarjetaDirecciones{
+	background: url("../imx/ico_tarjeta_direcciones.png") no-repeat left top;
+	padding: 1px 0 3px 25px;
+}
+.expedientes{
+	background: url("../imx/ico_expedientes.png") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+.tarjetasCredito{
+	background: url("../imx/ico_tarjetas_credito.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.via_automatico{
+	/*background-image: url("../imx/ico_via_conocimiento_automatico.png");*/
+	background-image: url("../imx/ico_via_conocimiento.png");
+	background-position: 0 3px;
+	background-repeat: no-repeat; 	
+	padding: 3px 0 2px 21px;
+}
+
+.via{
+	font-style: italic;
+}
+
+.Titulacion, .titulacion{
+	background: url("../imx/ico_titulacion.png") no-repeat left top;
+	padding: 0 0 2px 23px;	
+}
+
+.agregarTitulacion {
+	background: url("../imx/ico_agregar_titulaciones.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+
+
+.CuadroControlComerciales, .cuadroControlComercial{
+	background: url("../imx/ico_cuadro_control_comercial.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+
+
+/*
+Iconos de Leads / propuestas Organizacion
+------------------------------- */
+.asunto_organizacion{
+	background: url("../imx/ico_asunto_organizacion.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+.acuerdo_organizacion{
+	background: url("../imx/ico_acuerdo_organizacion.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+
+
+
+/*
+Restricciones
+------------------------------- */
+.restricciones_large{
+	background: url("../imx/ico_restricciones_32.png") no-repeat left top;
+	padding: 1px 0 2px 34px;
+}
+
+
+.starred, .starred_off{
+	background: url("../imx/ico_starred_off.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+.starred{
+	background: url("../imx/ico_starred.png") no-repeat left top;
+}
+.Actividad, .actividad{
+	background: url("../imx/ico_actividad.png") no-repeat left top;
+	padding: 0px 0 3px 23px;	
+}
+
+/*
+Nodos T
+------------------------------- */
+.ProgramaVersionT{
+	background: url("../imx/ico_programa_version_t.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+.AsignaturaVersionT{
+	background: url("../imx/ico_asignatura_version_t.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+.ActividadT{
+	background: url("../imx/ico_actividad_t.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+
+/*
+.Beca{
+	background: url("../imx/ico_beca.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+
+.crearBeca{
+	background: url("../imx/ico__beca.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+		
+}
+*/
+/*
+Nodos
+------------------------------- */
+
+.unir{
+	background: url("../imx/ico_nodo_unir.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+.dividir{
+	background: url("../imx/ico_nodo_dividir.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+.explorador{
+	background: url("../imx/ico_explorar.png") no-repeat left top;
+	padding: 1px 0 2px 23px;	
+}
+
+.notaedicioncelda .obligatorio{
+background:none;
+}
+
+.notasinicono .evaluacion{
+background:none;
+}
+
+.nota_ExpandirEstructura{
+background: url("../imx/ico_crear_estructura.png") no-repeat left top;
+padding: 1px 0 2px 23px;
+}
+
+.EstructuraAcademica{
+background: url("../imx/ico_estructura_academica.png") no-repeat left top;
+padding: 1px 0 2px 23px;
+
+}
+
+.nota_examenes_revisar{
+	background: url("../imx/ico_examenes_revisar.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.nota_editar{
+	background: url("../imx/ico_editar_nota.png") no-repeat right top;
+	padding: 1px 0 2px 15px;
+}
+.nota_eliminar{
+	background: url("../imx/ico_nota_eliminar.png") no-repeat right top;
+	padding: 1px 0 2px 15px;
+}
+
+.nota_convalidar
+{
+	background: url("../imx/ico_nota_convalidar.png") no-repeat left center;
+	padding: 0 0 2px 23px;
+}
+
+.nota_convalidado
+{
+	background: url("../imx/ico_convalidado.png") no-repeat right top;
+	padding: 1px 0 2px 23px;
+}
+
+.nota_modificable
+{
+	background: url("../imx/ico_asig_modificable.png") no-repeat center top;
+	padding: 1px 0 2px 23px;
+}
+
+.nota_pendiente
+{
+	background: url("../imx/ico_nota_pendiente.png") no-repeat right bottom;
+	padding: 1px 0 2px 23px;
+	
+}
+
+.nota_reprobado
+{
+	background: url("../imx/ico_nota_reprobado.png") no-repeat right center;
+	padding: 0px 0 3px 23px;
+}
+
+.sin_nota
+{
+	background: url("../imx/ico_sin_nota.png") no-repeat right top;
+	padding: 0 0 2px 23px;
+}
+
+.nota_actividades
+{
+	background: url("../imx/ico_nota_actividades.png") no-repeat right center;
+	padding: 0px 18px 3px 0px;
+}
+
+.calificacion{
+background: url("../imx/ico_califica.png") no-repeat left top;
+padding: 1px 0 2px 23px;
+}
+
+.agregar_grande{
+	background-image: url("../imx/ico_agregar_grande.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0px 0 50px 50px;
+	vertical-align: bottom;
+}
+.quitar_grande{
+	background-image: url("../imx/ico_quitar_grande.png");
+	background-position: 0 0;
+	background-repeat: no-repeat; 	
+	padding: 0px 0 50px 50px;
+	vertical-align: bottom;
+}
+
+.crearContenido{
+	background: url("../imx/ico_agregar_contenido.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.ContenidoCompartido{
+	background: url("../imx/ico_contenido_compartido.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.ContenidoRelacionado{
+	background: url("../imx/ico_contenido_relacionado_padre.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.Contenido_sin_relacion{
+	background: url("../imx/ico_sin_contenido.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+.peticion_seguimiento{
+	background: url("../imx/ico_seguimiento.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+}
+
+.coleccion
+{
+	background: url("../imx/ico_coleccion.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+.coleccion_no_pertenece
+{
+	background: url("../imx/ico_sin_coleccion.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+.coleccion_en_subprogramas
+{
+	background: url("../imx/ico_coleccion_en_subprogramas.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+.coleccion_relacionado
+{
+	background: url("../imx/ico_coleccion_relacionado.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+.coleccion_compartido
+{
+	background: url("../imx/ico_coleccion_compartido.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+.campus_virtual{
+	background: url("../imx/ico_campus_virtual.png") no-repeat left 2px;
+	padding: 3px 1px 2px 23px;
+	margin:0 -3px 0 0;
+	
+}
+
+
+
+/*Envíos*/
+	
+.envio_retenido_con_tomo{
+	background: url("../imx/envio_retenido_con_tomo.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+.envio_no_enviado_con_tomo{
+	background: url("../imx/envio_no_enviado_con_tomo.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+.envio_activo_con_tomo{
+	background: url("../imx/envio_activo_con_tomo.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+.envio_inactivo_con_tomo{
+	background: url("../imx/envio_inactivo_con_tomo.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+.envio_erroneo_con_tomo{
+	background: url("../imx/envio_erroneo_con_tomo.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+.envio_no_tiene_tomo{
+	background: url("../imx/envio_no_tiene_tomo.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+/*Descripcion de Tomos*/
+.descripcionTomo {
+	background: url("../imx/ico_tomo_descripcion.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+	}
+.descripcionTomo_editar {
+	background: url("../imx/ico_tomo_descripcion_editar.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+	}
+.descripcionTomo_agregar {
+	background: url("../imx/ico_tomo_descripcion_agregar.png") no-repeat left top;
+	padding: 1px 0 2px 23px;
+	}
+
+
+.archivoAdjunto{
+	background: url("../imx/ico_archivo_adjunto.png") no-repeat left top;
+	padding: 1px 0 2px 20px;
+}
+.trabajo_impresion_publicado{
+	background: url("../imx/ico_trabajo_impresion_publicado.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+.trabajo_impresion_despublicado{
+	background: url("../imx/ico_trabajo_impresion_despublicado.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+}
+
+/* Toggles */
+.toggleMas{
+	background: url("../imx/ico_toggle_mas.png") no-repeat right top;
+	padding: 0 0 0 14px;	
+}
+
+.toggleMenos{
+	background: url("../imx/ico_toggle_menos.png") no-repeat right top;
+	padding: 0 0 0 14px;	
+}
+
+.creditos {
+	background: url("../imx/creditos.png") no-repeat left center;
+	padding: 1px 0 2px 23px;}
+
+.fecha_fuera_de_plazo {
+	background: url("../imx/fecha_fuera_plazo.png") no-repeat left center;
+	padding: 1px 0 2px 23px;
+	}
+	
+
+/* RG */
+.manual{
+	background: url("../imx/ico_capital_letter_M.png") no-repeat left top;
+	padding: 0 0 0 20px;
+}
+.automatico{
+	background: url("../imx/ico_capital_letter_A.png") no-repeat left top;
+	padding: 0 0 0 20px;
+}
+.pagado{
+	background: url("../imx/ico_persona2.png") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+.no_pagado{
+	background: url("../imx/ico_usuario.gif") no-repeat left top;
+	padding: 0 0 2px 19px;
+}
+
+/*Titulaciones*/url("../../../seleccionados/tick-small.png")
+.legalizacion{
+	background: url("../imx/legalizacion.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+.legalizacion_disable{
+	background: url("../imx/legalizacion_disable.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+.legalizacion_pagada{
+	background: url("../imx/legalizacion_pagada.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+.legalizacion_nopagada{
+	background: url("../imx/legalizacion_nopagada.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+.tasas{
+	background: url("../imx/tasas.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+.tasas_disable{
+	background: url("../imx/tasas_disable.png") no-repeat left center;
+	padding: 1px 0 0 20px;
+}
+.tasas_pagada{
+	background: url("../imx/tasas_pagada.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+.tasas_nopagada{
+	background: url("../imx/tasas_nopagada.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+}
+
+.titulaciones_organizacion {
+	background: url("../imx/ico_organizacion_titulacion.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+	}
+	
+.titulacion_sedes {
+	background: url("../imx/ico_sede_organizacion.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+	}	
+.empresaNuevo, empresa_nuevo {
+	background: url("../imx/ico_empresa_nuevo.png") no-repeat left top;
+	padding: 1px 0 0 20px;
+	}
+	
+.pagoAcumulado{
+	background: url("../imx/pago_acumulado.png") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+	
+.agregarResponsable {
+	background: url("../imx/ico_agregar_responsable.gif") no-repeat left top;
+	padding: 1px 0 3px 23px;
+}
+
+.presentacion
+{
+	background: url("../imx/document-share.png") no-repeat left center;
+	padding: 12px;
+}
+.presentacion_persona
+{
+	background: url("../imx/presentacion.png") no-repeat left center;
+	padding: 0 0 0 15px;
+}
+
+.presentacion_2
+{
+	background: url("../imx/presentacion_2.png") no-repeat left center;
+	padding: 12px;
+}
+
+

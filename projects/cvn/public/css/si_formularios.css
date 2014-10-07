@@ -1,0 +1,480 @@
+/*
+-----------------------------------------------
+ Estilos Formularios
+ @autor:   Rafael Nevarez
+ @version:  Agosto 19 2005
+----------------------------------------------- */
+
+/* Selects Comunes 
+----------------------------------------------- */
+/*select#programa_id, select#area_id, select#sede_id, 
+select#estado_id, select#estinc_id, select#oficina_id, 
+select#tipo_envio_id, select#programa_version_id, 
+select#incidencia_id, .filtroBusqueda{
+	width: 250px;
+}*/
+
+/* HTML
+----------------------------------------------- */
+.contenidoHTML{
+	font-family: "Monaco", "Lucida Console", "Andale Mono", "Courier New", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+/*TR: Reglas css para el componente seguimientos*/
+	.descripcion_expander{width: 100%; word-wrap: break-word;}
+	.descripcion_details{width: 100%; word-wrap: break-word;}
+	.descripcion_summary{width: 100%; word-wrap: break-word;}
+	#seguimiento_descripcion_compuesta .mceStatusbar{display: none;}
+	/*.seguimiento_descripcion{background: none repeat scroll 0 0 #DCECF9;}*/
+	.seguimiento_descripcion p:first-child{margin-top: 0px!important;}
+	.seguimiento_descripcion p:last-child{margin-bottom: 0px!important;}
+	.html strong, .html b{font-weight: bold!important;}
+
+
+/* Formularios 
+----------------------------------------------- */
+table.formulario{
+	background:#fff url("../imx/bg_tablas.jpg") repeat-x left top;
+	width: 98%;
+	margin: 0 0 15px 1%;
+	border-collapse: collapse;
+}
+table.formulario label{
+	cursor: pointer;	
+}
+table.formulario td{
+	padding: 2px 4px;
+}
+table.formulario th{
+	font-weight: normal;
+	background: #fff;
+	width: 100px;
+	text-align: left;
+	padding: 2px 3px;
+}
+table.formulario th, table.formulario td{
+	border: none;
+	border-top: 1px solid #e0e0e0;
+	margin: 0;
+	vertical-align: top;
+}
+
+table.formulario td.buttons{
+	vertical-align: middle;
+}
+
+
+/* Reportes 
+----------------------------------------------- */
+table.reporte{
+	width: 98%;
+	margin: 0 0 0 1%;
+	border-collapse: collapse;
+}
+table.reporte th{
+	font-weight: normal;
+	color: #1e4a7b;
+	vertical-align: top;
+	padding: 3px 3px 3px 0;
+	text-align: left; 
+	width: 100px;
+}
+table.reporte td{
+	padding: 3px;
+	text-align: left;
+	vertical-align: top;
+	color: #444;
+}
+
+
+
+/* Info Objetos 
+----------------------------------------------- */
+table.infoObjeto{
+	width: 100%;
+	margin: 0;
+	border-collapse: collapse;
+}
+table.infoObjeto td{
+	color: #fff;
+	padding: 2px;
+	text-align: left;
+	vertical-align: top;
+}
+/*table.infoObjeto th{
+	font-weight: normal;
+	color: #1e4a7b;
+	vertical-align: top;
+	padding: 2px 3px 2px 0;
+}*/
+table.infoObjeto th {
+	font-weight: normal;
+	color: #fff;
+	vertical-align: top;
+	padding: 2px 3px 2px 0;
+	text-align: right; 
+	width: 90px;
+}
+
+
+/* Vista Resumen
+----------------------------------------------- */
+table.vistaResumen{
+	width: 100%;
+	margin: 0;
+	border-collapse: collapse;
+}
+table.vistaResumen td{
+	color: #444;
+	padding: 2px;
+	text-align: left;
+	vertical-align: top;
+}
+table.vistaResumen th {
+	font-weight: normal;
+	color: #1e4a7b;
+	vertical-align: top;
+	padding: 2px 3px 2px 0;
+	text-align: right; 
+	width: 90px;
+}
+
+
+/* Reportes 
+----------------------------------------------- */
+table.reporteMini{
+	width: 100%;
+	border-collapse: collapse;
+}
+table.reporteMini td{
+	color: #444;
+}
+table.reporteMini th{
+	font-weight: normal;
+	color: #1e4a7b;
+	width: 100px;
+	vertical-align: top;
+	padding: 1px 1px 1px 0;
+}
+table.reporteMini th, table.reporteMini td{
+	padding: 1px;
+	text-align: left;
+	border: none;
+	vertical-align: top;
+	margin: 0;
+}
+
+
+/* Mini Dialogos 
+---------------------------------------------- */
+.mini_dialogo, dialogoMini, miniDialogo{
+	float: left; clear:both;
+	background: #fafafa;
+	border: 1px solid #dedede;
+	margin: 1px 0;
+	padding: 1%;
+	width: 97%;
+	display: inline;
+	border-collapse: collapse;
+}
+.mini_dialogo .lista_dinamica, .mini_dialogo .toolbar{
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+
+.mini_dialogo .lista_nodo_fila_hijos .lista_dinamica, .lista_nodo_fila_hijos .toolbar{
+	width: 96%;
+	margin-left: 4%;
+}
+
+
+.mini_dialogo h3{
+	/*margin: 0;*/
+    margin: 5px 0 5px 16px;
+}
+td.descripcion{
+	display: none;
+}
+
+.descripcion{
+	color: #777;
+}
+
+.toolbarBusqueda{
+	width: 96%; 
+	margin: 10px 2% 0 2%; 
+	float: left; 
+	clear: both; 
+	/*border-top: 1px solid #eee; */
+	padding: 6px 0 0 0 ;
+}
+
+/* Mini Formularios 
+---------------------------------------------- */
+table.mini_formulario {
+	width: 98%;
+	margin: 0 0 0 3%;
+	border-collapse: collapse;
+}
+table.mini_formulario th{
+	font-weight: normal;
+	color: #0092C7;
+	width: 100px;
+	vertical-align: top;
+}
+table.mini_formulario label{
+	cursor: pointer;
+}
+table.mini_formulario td{
+	color: #777;
+}
+table.mini_formulario th, table.mini_formulario td{
+	padding: 3px;
+	text-align: left;
+	border: none;
+	vertical-align: top;
+	margin: 0;
+}
+table.mini_formulario td.submit{
+	vertical-align: top;
+
+}
+table.mini_formulario td.submit input{
+	vertical-align: middle;
+}
+
+table.mini_formulario td.buttons{
+    padding-bottom: 7px;
+	vertical-align: middle;
+}
+
+.mini_formulario td input[type='text']{
+    width:70%;
+}
+
+/*
+Mini Listado
+---------------------------------------------- */
+table.mini_listado {
+	width: 98%;
+	margin: 0 0 0 1%;
+	border-collapse: collapse;
+}
+table.mini_listado th{
+	border-bottom: #CCC solid 1px;
+	font-weight: normal;
+	color: #0092C7;
+	vertical-align: top;
+}
+table.mini_listado label{
+	cursor: pointer;	
+}
+table.mini_listado td{
+	border-bottom: #CCC solid 1px;
+	color: #000;
+}
+table.mini_listado th, table.mini_listado td{
+	padding: 2px;
+	text-align: left;
+	vertical-align: top;
+	margin: 0;
+}
+table.mini_listado td.submit{
+	vertical-align: top;
+
+}
+table.mini_listado td.submit input{
+	vertical-align: middle;
+}
+
+
+.columnLeft{
+	width: 59%; margin-right: 1%; float: left; 
+}
+.columnRight{
+	width: 39%; float: left;
+}
+
+select.disable{
+    pointer-events: none;
+    cursor: default;
+}
+
+/*App Estados*/
+.estadosForm {
+	float:left; width:100%
+}
+
+
+[data-tooltip] {
+	position:relative;
+/* 	cursor:help; */
+}
+[data-tooltip]:before {
+	content:'';
+	/* hides the tooltip when not hovered */
+	display:none;
+	border:5px solid #1a1a1a;
+	/* 4 border technique to create the arrow */
+	border-top-color:#1a1a1a;
+	border-right-color:transparent;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+	position:absolute;
+	top:-9px;
+	left:10px;
+	z-index:8;
+	line-height:0;
+	width:0;
+	height:0;
+ -webkit-transition: all 0.4s ease;
+ -moz-transition   : all 0.4s ease;
+}
+[data-tooltip]:after {
+	display:none;
+	content: attr(data-tooltip);
+	position:absolute;
+	top:-37px;
+	left:0px;
+	padding:5px 8px;
+	background:#1a1a1a;
+	color:#fff;
+	z-index:9;
+	height:18px;
+	line-height:18px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	white-space:nowrap;
+	word-wrap:normal;
+ -webkit-transition: all 0.4s ease;
+ -moz-transition   : all 0.4s ease;
+}
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	display:block;
+}
+
+._error_[data-tooltip]:before,
+._warning_[data-tooltip]:before {
+	border-top-color:#ffcb66;
+	border-right-color:transparent;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+}
+._error_[data-tooltip]:after,
+._warning_[data-tooltip]:after {
+	background:#ffcb66;
+	color:#000;
+}
+
+/*Edicion Avanzada de formularios*/
+
+.dialogoEdicionAvanzada .PanelIzquierdo, .dialogoEdicionAvanzadaPopup .PanelIzquierdo {
+	width:50%;
+	margin:0;
+	float:left;
+}
+
+.dialogoEdicionAvanzada .PanelDerecho {
+	width:49%;
+	float:right;
+	margin:0;
+}
+.PanelDerecho {
+	width:49%;
+	float:right;
+	margin:0;
+}
+.PanelIzquierdo {
+	width:50%;
+	margin:0;
+	float:left;
+}
+
+.dialogoEdicionAvanzada textarea, .dialogoEdicionAvanzadaPopup textarea{
+	width:70%;
+	resize:none;
+}
+
+.dialogoEdicionAvanzadaPopup{
+	padding:10px;
+}
+
+.dialogoEdicionAvanzadaPopup .PanelDerecho {
+	width:50%;
+	float:right;
+}
+
+.dialogoEdicionAvanzada input[type='text'], .dialogoEdicionAvanzadaPopup input[type='text']{
+	width:70% ;
+}
+
+.dialogoEdicionAvanzada select{
+	width:71% ;
+}
+
+.dialogoEdicionAvanzadaPopup select{
+	width:73% ;
+}
+.dialogoEdicionAvanzada .mini_container{ width: 68%; }
+
+/*Becas Nuevo*/
+.dialogoEdicionAvanzadaPopup.Becas_nuevo input.calendario {
+	width:58% !important;
+	}
+/*Prematriculas*/
+.dialogoEdicionAvanzadaPopup.Prematriculas_nuevo input.calendario {
+	width:58% !important;
+	}
+.dialogoEdicionAvanzadaPopup.Prematriculas_edicion input.calendario {
+	width:58% !important;
+	}
+	
+/* pestaña Datos de Seg Academico IS*/
+
+.dialogoEdicionAvanzada table.reporte th, .dialogoEdicionAvanzada table.reporte td{
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 0;
+	vertical-align: top;
+}
+
+/* pestaña Tesis de Seg Academico IS*/
+
+.vista_TesisMedida table.reporte th, .vista_TesisMedida table.reporte td{
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 0;
+	vertical-align: top;
+}
+
+.vista_Tesis table.reporte th, .vista_Tesis table.reporte td{
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 0;
+	vertical-align: top;
+}
+
+
+	
+/*Edicion de Opciones Basicas de formularios AppAsignatura - Programas - Proyectos - Sedes -Tipo de Envios */	
+.EdicionBasicos .columnLeft input[type='text'], .EdicionBasicos input[type='text']{
+	width:70% ;
+}
+.EdicionBasicos .columnLeft textarea, .EdicionBasicos textarea {
+	width:70%;
+	resize:none;
+}
+.EdicionBasicos .columnLeft select, .EdicionBasicos select {
+	width:71% ;
+}
+.EdicionBasicos .columnRight input[type='text']{
+	width:90% ;
+}
+.EdicionBasicos .columnRight select{
+	width:91% ;
+}
+
